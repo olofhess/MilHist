@@ -1,0 +1,912 @@
+placeId;name;latitude;longitude;notes
+PL_KENT;Kent;51.2787;0.5217;County in southeastern England and center of Jack Cade’s Rebellion in 1450
+PL_ST_ALBANS;St Albans;51.7520;-0.3360;Site of the First Battle of St Albans in 1455
+PL_WAKEFIELD;Wakefield;53.6827;-1.4977;Location associated with the Battle of Wakefield in 1460
+PL_TOWTON;Towton;53.7886;-1.3096;Village near the site of the Battle of Towton in 1461
+PL_BARNET;Barnet;51.6538;-0.1996;Location of the Battle of Barnet in 1471
+PL_TEWKESBURY;Tewkesbury;51.9950;-2.1540;Site of the Battle of Tewkesbury in 1471
+PL_BOSWORTH;Bosworth Field;52.5887;-1.4130;Traditional location of the Battle of Bosworth Field in 1485
+PL_STOKE_FIELD;Stoke Field;53.0183;-0.8536;Site of the Battle of Stoke Field in 1487
+PL_SAN_SALVADOR;San Salvador (Bahamas);24.058;-74.524;First recorded landing site of Christopher Columbus in the Caribbean in 1492
+PL_HISPANIOLA;Hispaniola;19.000;-70.700;Major Caribbean island that became the first center of Spanish colonial rule
+PL_LA_ISABELA;La Isabela;19.650;-71.050;First permanent European town in the Americas founded by Spain in 1493
+PL_CUBA;Cuba;21.521;-77.781;Major Spanish Caribbean island consolidated into the imperial system in the early 16th century
+PL_ATLANTIC_CARIBBEAN;Atlantic–Caribbean Sea Routes;22.000;-60.000;Core maritime corridor linking the Caribbean to Spain and Europe
+PL_CARIBBEAN;Caribbean Sea;18.000;-75.000;Central maritime theatre of Spanish imperial logistics and later imperial rivalry
+PL_BARBADOS;Barbados;13.1939;-59.5432;Early English sugar plantation colony and model for plantation capitalism
+PL_MARTINIQUE;Martinique;14.6415;-61.0242;Key French plantation colony and center of Caribbean sugar production
+PL_ATLANTIC_WORLD;Atlantic World;15.0000;-35.0000;Interconnected economic system linking Africa the Caribbean Europe and the Americas through trade and slavery
+PL_JAMAICA;Jamaica;18.1096;-77.2975;Strategic Caribbean island captured by England in 1655 and developed into a major imperial base
+PL_SAINT_DOMINGUE;Saint-Domingue (western Hispaniola);18.9000;-72.8000;French colony formally recognized after the Treaty of Ryswick and later the richest sugar colony in the Caribbean
+PL_VERACRUZ;Veracruz;19.1738;-96.1342;Primary Gulf port linking Mexico to the Caribbean trade system
+PL_PANAMA;Panama City;8.9824;-79.5199;Key transit hub for silver shipments across the isthmus
+PL_HAVANA;Havana;23.1136;-82.3666;Main Spanish fleet assembly port in the Caribbean
+PL_RIGA;Riga;56.9496;24.1052;Major Baltic port and fortress in Livonia.
+PL_HUMLEBAEK;Humlebæk;55.9639;12.5344;Landing site in Zealand during Danish campaign.
+PL_TRAVENDAL;Travendal;54.3000;10.0000;Site of the 1700 peace treaty with Denmark.
+PL_NARVA;Narva;59.3772;28.1903;Fortress town in Ingria near Estonian border.
+PL_WARSAW;Warsaw;52.2297;21.0122;Capital of Poland and political center.
+PL_KLISZOW;Kliszów;50.4700;20.5000;Battlefield south of Kielce in Poland.
+PL_PULTUSK;Pułtusk;52.7025;21.0828;Town north of Warsaw on the Narew River.
+PL_THORN;Toruń;53.0138;18.5984;Fortress city on the Vistula River.
+PL_JAKOBSTADT;Jēkabpils;56.4997;25.8667;Town in Courland modern Latvia.
+PL_FRAUSTADT;Wschowa;51.8000;16.3167;Battlefield in western Poland.
+PL_ALTRANSTADT;Altranstädt;51.3833;12.5000;Manor near Leipzig where treaty was signed.
+PL_SMOLENSK;Smolensk;54.7826;32.0453;Strategic city on road to Moscow.
+PL_HOLOWCZYN;Holovchyn;53.6000;30.4500;Village in modern Belarus site of battle.
+PL_LESNAYA;Lesnaya;54.0500;30.7167;Village in Belarus site of major battle.
+PL_BATURYN;Baturyn;51.3386;32.8725;Hetman capital destroyed by Russians.
+PL_POLTAVA;Poltava;49.5883;34.5514;Site of decisive 1709 battle.
+PL_PEREVOLOCHNA;Perevolochna;49.0000;33.2500;Site of Swedish surrender after Poltava.
+PL_BENDER;Bender;46.8300;29.4700;Ottoman fortress where Charles XII took refuge.
+PL_VYBORG;Vyborg;60.7090;28.7528;Fortress city in Karelia captured by Russia.
+PL_PRUTH;Pruth River;47.2000;27.5000;Approximate location of Pruth campaign.
+PL_STRALSUND;Stralsund;54.3091;13.0818;Swedish stronghold in Pomerania.
+PL_LUND;Lund;55.7047;13.1910;City where Charles XII returned to Sweden.
+PL_FREDRIKSTEN;Fredriksten Fortress;59.1333;11.3833;Norwegian fortress near Halden.
+PL_FREDRIKSHALD;Halden;59.1240;11.3875;Town near Fredriksten siege site.
+PL_STOCKHOLM_ARCH;Stockholm Archipelago;59.5000;18.5000;Area of Russian coastal raids.
+PL_GRENGAM;Grengam;60.2500;20.2500;Naval battle site in Åland archipelago.
+PL_NYSTAD;Uusikaupunki (Nystad);60.8000;21.4000;Site of final peace treaty.
+PL_WASHINGTON;Washington DC;38.8951;-77.0364;Union capital
+PL_RICHMOND;Richmond Virginia;37.5407;-77.4360;Confederate capital
+PL_BULLRUN;Manassas Virginia;38.7939;-77.5217;First major land battle area
+PL_ANTIETAM;Sharpsburg Maryland;39.4570;-77.7489;Bloodiest single day battle site
+PL_FREDERICKSBURG;Fredericksburg Virginia;38.3032;-77.4605;Major eastern battlefield
+PL_CHANCELLORSVILLE;Chancellorsville Virginia;38.3004;-77.6561;Lee famous flank attack site
+PL_GETTYSBURG;Gettysburg Pennsylvania;39.8309;-77.2311;Decisive turning point battle
+PL_VICKSBURG;Vicksburg Mississippi;32.3526;-90.8779;Key Mississippi fortress
+PL_CHATTANOOGA;Chattanooga Tennessee;35.0456;-85.3097;Gateway to the deep south
+PL_LOOKOUTMOUNTAIN;Lookout Mountain Tennessee;34.9940;-85.3497;Mountain battle above Chattanooga
+PL_ATLANTA;Atlanta Georgia;33.7490;-84.3880;Key Confederate industrial city
+PL_SAVANNAH;Savannah Georgia;32.0809;-81.0912;Sherman march endpoint
+PL_PETERSBURG;Petersburg Virginia;37.2279;-77.4019;Siege location south of Richmond
+PL_APPOMATTOX;Appomattox Virginia;37.3579;-78.8253;Final surrender site
+PL_RALEIGH;Raleigh North Carolina;35.7796;-78.6382;Johnston surrender region
+PL_NASHVILLE;Nashville Tennessee;36.1627;-86.7816;Destruction of Confederate western army
+PL_SPOTSYLVANIA;Spotsylvania Virginia;38.1979;-77.5861;Overland campaign battlefield
+PL_WILDERNESS;Wilderness Virginia;38.3151;-77.7347;Dense forest battlefield
+PL_COLDHARBOR;Cold Harbor Virginia;37.5789;-77.2539;Costly frontal assault site
+PL_FORTFISHER;Fort Fisher North Carolina;33.9000;-77.9333;Last Confederate port defense
+PL_SUMTER;Fort Sumter;32.7523;-79.8747;Coastal fort in Charleston Harbor where the war began
+PL_MONTGOMERY;Montgomery Alabama;32.3792;-86.3077;First capital of the Confederate States
+PL_WILSONSCREEK;Wilsons Creek Missouri;37.0687;-93.4033;Battlefield in southwestern Missouri
+PL_BELMONT;Belmont Missouri;36.9289;-89.3576;Mississippi River battlefield site
+PL_ROANOKE;Roanoke Island;35.9415;-75.6766;Island off the coast of North Carolina
+PL_SHILOH;Shiloh Tennessee;35.1370;-88.3390;Battlefield near Pittsburg Landing
+PL_PENINSULA;Virginia Peninsula;37.3200;-76.5200;Theatre of the Peninsula Campaign
+PL_OVERLAND;Overland Virginia;38.1000;-77.4000;Theatre of Grant’s Overland Campaign
+PL_GEORGIA;Georgia;32.1656;-82.9001;Region crossed during Sherman’s March
+PL_CAROLINAS;The Carolinas;34.0000;-81.0000;Theatre of Sherman’s Carolinas Campaign
+PL_AACHEN;Aachen;50.7753;6.0839;Western German staging area
+PL_EBEN_EMAEL;Fort Eben-Emael;50.7950;5.5986;Belgian fortress captured by glider assault
+PL_BRUSSELS;Brussels;50.8503;4.3517;Belgian capital
+PL_ARDENNES;Ardennes Forest;49.8330;5.5000;Main German armored thrust route
+PL_MEUSE;Meuse River (Sedan);49.7019;4.9403;Critical river crossing near Sedan
+PL_SEDAN;Meuse Crossing;49.7200;4.9500;
+PL_PLACE_BAZEILLES;BAZEILLES;49.6760;4.9730;
+PL_MONTCORNET;Montcornet;49.7140;3.8280;French counterattack by de Gaulle
+PL_AMIENS;Amiens;49.8941;2.2958;Key junction city
+PL_ABBEVILLE;Abbeville;50.1050;1.8333;Germans reach the Channel here
+PL_ARRAS;Arras;50.2910;2.7770;Site of Allied counterattack
+PL_DUNKIRK;Dunkirk;51.0344;2.3768;Evacuation of Allied forces
+PL_PARIS;Paris;48.8566;2.3522;French capital
+PL_COMPIEGNE;Compiègne;49.4170;2.8260;Armistice signed here
+PL_MAASTRICHT;Maastricht;50.8514;5.6900;Dutch entry point
+PL_BASTOGNE;Bastogne;50.0000;5.7167;Ardennes crossroads
+PL_SOMME;Somme River;49.9000;2.8000;Somme river line
+PL_ROME;Rome;41.9028;12.4964;Italian capital
+PL_BORDEAUX;Bordeaux;44.8378;-0.5792;French government evacuation city
+PL_PBOULOGNE;BOULOGNE;50.725;1.613;Channel coast base of Grande Armée
+PL_ULM;ULM;48.398;9.991;Danube crossing and Austrian encirclement
+PL_VIENNA;VIENNA;48.2082;16.3738;Austrian capital
+PL_AUSTERLITZ;AUSTERLITZ;49.133;16.783;Battle of the Three Emperors (Slavkov)
+PL_PRESSBURG;PRESSBURG;48.1486;17.1077;Modern Bratislava
+PL_JENA;JENA;50.927;11.589;Defeat of main Prussian army
+PL_AUERSTEDT;AUERSTEDT;51.104;11.603;Defeat of Prussian main army by Davout
+PL_BERLIN;BERLIN;52.5200;13.4050;Prussian capital
+PL_EYLAU;EYLAU;54.376;20.641;Bloody winter battle in East Prussia
+PL_FRIEDLAND;FRIEDLAND;54.458;21.014;Decisive defeat of Russian army
+PL_TILSIT;TILSIT;55.070;21.880;Peace treaty with Russia
+PL_MADRID;MADRID;40.4168;-3.7038;Spanish capital
+PL_BAILEN;BAILEN;38.096;-3.777;Battle of Bailén site
+PL_VIMEIRO;VIMEIRO;39.177;-9.317;Battle of Vimeiro site
+PL_ECKMUHL;ECKMUHL;48.850;11.967;Battle of Eckmühl site
+PL_ASPERN;ASPERN;48.219;16.482;Aspern-Essling battlefield
+PL_WAGRAM;WAGRAM;48.251;16.579;Battle of Wagram site
+PL_NIEMEN;NIEMEN;54.07;22.03;Niemen River crossing point
+PL_BORODINO;BORODINO;55.533;35.817;Battle of Borodino site
+PL_BEREZINA;BEREZINA;54.317;28.333;Berezina River crossing
+PL_LEIPZIG;LEIPZIG;51.339;12.373;Battle of Leipzig site
+PL_FONTAINEBLEAU;FONTAINEBLEAU;48.402;2.701;Abdication site
+PL_MOSCOW;MOSCOW;55.7558;37.6173;Russian capital and political center
+PL_GOLFE_JUAN;GOLFE_JUAN;43.551;7.017;Landing site from Elba
+PL_LIGNY;LIGNY;50.514;4.578;Battle of Ligny site
+PL_WATERLOO;WATERLOO;50.680;4.412;Battle of Waterloo site
+PL_ST_HELENA;ST_HELENA;-15.965;-5.708;Final exile island
+PL_PLACE_COPENHAGEN;Copenhagen;55.6761;12.5683;Danish capital central to several Wars in 17th century
+
+PL_KALMAR;Kalmar;56.6634;16.3568;Strategic fortress controlling access to southeastern Sweden
+PL_SMALAND;Småland;57.0000;15.0000;Interior region subjected to Danish raids and campaigns
+PL_VITTSJO;Vittsjö;56.3425;13.6583;Site of the Battle of Vittsjö (1612)
+PL_JAMTLAND;Jämtland;63.1736;14.6357;Northern region invaded by Norwegian forces
+PL_KATTEGAT;Kattegat;56.9000;11.0000;Sea area between Denmark and Sweden, scene of naval operations
+PL_KNARED;Knäred;56.5190;13.3036;Location of peace negotiations and Treaty of Knäred (1613)
+PL_HOLSTEIN;Holstein;54.3000;9.6000;Duchy in northern Germany invaded by Swedish forces in the opening phase of Torstensson’s War
+PL_JUTLAND;Jutland;54.8230;9.3330;Land entry point from Germany into Jutland used for campaign approach axis
+PL_COLBERGER_HEIDE;Colberger Heide;54.5000;11.0000;Sea area off the coast of Schleswig, site of the naval Battle of Colberger Heide
+PL_FEHMARN;Fehmarn;54.4370;11.1930;Island in the Baltic Sea near which the decisive naval Battle of Fehmarn was fought
+PL_BROMSEBRO;Brömsebro;56.2500;15.9160;Location of the peace negotiations and Treaty of Brömsebro in 1645
+PL_SCANIA;Skåne;55.6050;13.0038;Skåne
+PL_HELSINGBORG;Helsingborg;56.0465;12.6945;Major battle site in Scania
+PL_ROSKILDE;Roskilde;55.6419;12.0878;Historic Danish city west of Copenhagen, site of the Treaty of Roskilde 1658
+PL_NYBORG;Nyborg;55.3127;10.7896;Site of the Battle of Nyborg 1659
+PL_LITTLE_BELT;Little Belt;55.5050;9.7300;Swedish army winter crossing zone between Jutland and Funen 1658
+PL_GREAT_BELT;Great Belt;55.3204;11.006;Main winter crossing route between Funen and Zealand 1658
+PL_PLOEN;Plön;54.162;10.423;Swedish winter headquarters 1657–1658
+PL_LITTLE_BELT_ICE;Little Belt ice crossing;55.55;9.75;Winter crossing Jutland to Funen
+PL_FUNEN_ROUTE;Funen winter route;55.35;10.35;Operational march across Funen
+PL_GREAT_BELT_ICE;Great Belt ice crossing;55.45;11.00;Winter crossing Funen to Zealand
+PL_PRAGUE;Prague;50.0755;14.4378;Capital of Bohemia and site of the 1618 defenestration and 1648 sack
+PL_WHITE_MOUNTAIN;White Mountain;50.0870;14.3490;Battlefield west of Prague where Bohemian revolt was crushed 1620
+PL_FRANKFURT;Frankfurt am Main;50.1109;8.6821;Imperial election city within the Holy Roman Empire
+PL_LUTTER;Lutter am Barenberge;52.0980;10.2620;Battle site of major Danish defeat 1626
+PL_POMERANIA;Pomerania;54.0000;13.8000;Baltic coastal region where Sweden entered the war in 1630
+PL_BREITENFELD;Breitenfeld;51.3960;12.4310;Battlefield near Leipzig of decisive Swedish victory 1631
+PL_RAIN_LECH;Rain am Lech;48.6900;10.9200;Battle site where Tilly was mortally wounded 1632
+PL_LUTZEN;Lützen;51.2560;12.1420;Battlefield where Gustavus Adolphus was killed 1632
+PL_NORDLINGEN;Nördlingen;48.8520;10.4880;Site of decisive Catholic victory over Sweden 1634
+PL_WITTSTOCK;Wittstock;53.1620;12.4890;Battlefield of Swedish recovery victory 1636
+PL_ROCROI;Rocroi;49.9250;4.5220;Battle marking decline of Spanish military power 1643
+PL_JANKAU;Jankau;49.8500;14.7830;Battlefield south of Prague where Sweden defeated imperial army 1645
+PL_MUNSTER;Münster;51.9624;7.6257;Westphalian peace negotiation city
+PL_OSNABRUCK;Osnabrück;52.2799;8.0472;Second Westphalian peace negotiation city
+PL_BAVARIA;Bavaria;48.7900;11.4970;Key theatre of operations in southern Germany
+PL_ENGLAND;England;52.3555;-1.1743;Region: England
+PL_EDGEHILL;Edgehill Battlefield;52.118;-1.477;Battlefield in Warwickshire
+PL_BRENTFORD;Brentford;51.487;-0.309;Town west of London
+PL_ADWALTON_MOOR;Adwalton Moor;53.759;-1.703;Battlefield near Bradford
+PL_NEWBURY;Newbury;51.401;-1.324;Battlefield in Berkshire
+PL_MARSTON_MOOR;Marston Moor;53.979;-1.214;Major battlefield north of York
+PL_NASEBY;Naseby;52.396;-0.995;Battlefield in Northamptonshire
+PL_LANGPORT;Langport;51.037;-2.824;Battlefield in Somerset
+PL_BRISTOL;Bristol;51.454;-2.587;Major city and port
+PL_OXFORD;Oxford;51.752;-1.258;Royalist capital during the war
+PL_NEWARK;Newark-on-Trent;53.073;-0.808;Royalist stronghold
+PL_PUTNEY;Putney;51.462;-0.215;Site of the Putney Debates
+PL_PRESTON;Preston;53.763;-2.704;Battlefield in Lancashire
+PL_LONDON;London;51.507;-0.128;Capital city
+PL_DROGHEDA;Drogheda;53.718;-6.347;Town in Ireland stormed by Cromwell
+PL_WEXFORD;Wexford;52.336;-6.463;Irish port town sacked in 1649
+PL_DUNBAR;Dunbar;56.004;-2.514;Battlefield in Scotland
+PL_WORCESTER;Worcester;52.192;-2.221;Final battle of the Civil Wars
+PL_PEARL_HARBOR;Pearl Harbor;21.345;-157.949;US naval base on Oahu
+PL_PHILIPPINES;Philippines;12.879;121.774;US and Filipino forces defeated by Japan in 1942
+PL_CORAL_SEA;Coral Sea;-15.000;155.000;Naval battle fought entirely by aircraft
+PL_MIDWAY;Midway Atoll;28.210;-177.376;Strategic US naval base in the central Pacific
+PL_GUADALCANAL;Guadalcanal;-9.577;160.145;First major Allied ground offensive in the Pacific
+PL_TARAWA;Tarawa Atoll;1.451;-172.971;Atoll in the Gilbert Islands  site of major US amphibious assault in November 1943
+PL_SAIPAN;Saipan;15.198;145.749;Key island in the Mariana Islands
+PL_LEYTE_GULF;Leyte Gulf;10.850;125.000;Location of the largest naval battle in history
+PL_IWO_JIMA;Iwo Jima;24.784;141.323;Heavily fortified Japanese island
+PL_OKINAWA;Okinawa;26.335;127.806;Bloodiest land battle of the Pacific War
+PL_HIROSHIMA;Hiroshima;34.385;132.455;First atomic bombing site
+PL_NAGASAKI;Nagasaki;32.750;129.877;Second atomic bombing site
+PL_TOKYO_BAY;Tokyo Bay;35.333;139.800;Site of Japanese surrender aboard USS Missouri
+PL_HONG_KONG;Hong Kong;22.319;114.169;British colony captured by Japan
+PL_SINGAPORE;Singapore;1.352;103.819;British fortress in Southeast Asia
+PL_DUTCH_EAST_INDIES;Dutch East Indies;-2.548;118.015;Oil-rich Dutch colony modern Indonesia
+PL_WAKE_ISLAND;Wake Island;19.290;166.618;Remote US Pacific outpost
+PL_TANNENBERG;Tannenberg (Stębark);53.4333;20.1333;Site of decisive German victory August 1914
+PL_MASURIAN_LAKES;Masurian Lakes;53.8000;21.5000;Region of major 1914–1915 battles in East Prussia
+PL_GALICIA;Galicia;49.5000;24.0000;Habsburg crownland, major Eastern Front theater
+PL_LODZ;Łódź;51.7592;19.4550;Industrial city in central Poland
+PL_GORLICE_TARNOW;Gorlice;49.6556;21.1608;Site of breakthrough offensive May 1915
+PL_LEMBERG;Lviv (Lemberg);49.8397;24.0297;Galician capital, contested 1914–1915
+PL_POLAND;Poland (Congress Poland);52.0000;19.0000;General operational region 1915
+PL_NAROCH;Lake Naroch;54.8667;26.7000;Site of failed Russian offensive 1916
+PL_ROMANIA;Romania;45.9432;24.9668;Kingdom of Romania, entered war August 1916
+PL_BUCHAREST;Bucharest;44.4268;26.1025;Romanian capital captured December 1916
+PL_PETROGRAD;Petrograd (St. Petersburg);59.9311;30.3609;Capital of Russia 1914–1918
+PL_EASTERN_GALICIA;Eastern Galicia;49.0000;24.5000;Operational region in modern western Ukraine
+PL_BREST_LITOVSK;Brest-Litovsk (Brest);52.0976;23.7341;Site of armistice and treaty 1917–1918
+PL_RUSSIA;Russia (Western region);55.0000;37.0000;General operational reference area
+PL_UKRAINE;Ukraine (Central);49.0000;32.0000;Area of German occupation 1918
+PL_EASTERN_EUROPE;Eastern Europe;50.0000;25.0000;General postwar withdrawal zone
+PL_EUROPE;Europe;50.0000;10.0000;Continental reference location
+PL_TRANSYLVANIA;Transylvania;46.7712;23.6236;Region transferred to Romania after war
+PL_FINLAND;Finland;61.9241;25.7482;Declared independence December 1917
+PL_EAST_PRUSSIA;East Prussia;53.5000;20.5000;Province of German Empire main theatre of operations
+PL_GUMBINNEN;Gumbinnen;54.5500;22.2000;Site of early Russian tactical victory now Gusev
+PL_NEIDENBURG;Neidenburg;53.3600;20.4200;Key southern sector of encirclement now Nidzica
+PL_ALLENSTEIN;Allenstein;53.7800;20.4900;Operational center now Olsztyn
+PL_FROGENAU;Frogenau;53.4700;20.3200;Linkup point of German forces sealing encirclement
+PL_ORTELSBERG;Ortelsburg;53.5700;21.1700;Russian advance axis town now Szczytno
+PL_WILLENBERG;Willenberg;53.4000;20.9700;Area of Russian retreat attempts
+PL_KOENIGSBERG;Königsberg;54.7100;20.5100;Capital of East Prussia now Kaliningrad
+PL_VISTULA_RIVER;Vistula River;52.0000;19.0000;Major river line considered for German retreat
+PL_MESSINA;Messana (Messina);38.1938;15.5540;Sicilian city whose conflict triggered the First Punic War
+PL_MYLAE;Mylae (Milazzo);38.2200;15.2410;Site of Rome's first major naval victory in 260 BCE
+PL_ECNOMUS;Cape Ecnomus;37.0830;14.2330;Location of one of the largest naval battles in antiquity
+PL_AEGATES;Aegates Islands;38.0000;12.0000;Final naval battle of the First Punic War
+PL_SAGUNTUM;Saguntum (Sagunto);39.6833;-0.2833;Hispanian city whose siege triggered the Second Punic War
+PL_TREBBIA;Trebia River;45.0500;9.7000;Site of Hannibal's early victory in northern Italy
+PL_TRASIMENE;Lake Trasimene;43.1500;12.1000;Site of Hannibal's ambush of Roman forces
+PL_CANNAE;Cannae;41.3000;16.1500;Battle site of Hannibal's decisive double envelopment
+PL_ZAMA;Zama (approx. near Siliana);36.0833;9.3667;Final battle between Scipio and Hannibal in 202 BCE
+PL_CARTHAGE;Carthage;36.8528;10.3230;Capital of the Carthaginian Empire destroyed in 146 BCE
+PL_ATTICA;Attica (Region of Athens);37.9838;23.7275;Region surrounding Athens and primary theatre of early Spartan invasions.
+PL_ATHENS;Athens;37.9838;23.7275;Capital of the Athenian polis and center of the Delian League.
+PL_SPHACTERIA;Sphacteria;36.9870;21.6590;Island near Pylos where Spartan hoplites were captured in 425 BCE.
+PL_SYRACUSE;Syracuse (Sicily);37.0755;15.2866;Major Sicilian city and target of the Athenian expedition.
+PL_DECELEA;Decelea;38.1740;23.8230;Fortified position in northern Attica occupied by Sparta from 413 BCE.
+PL_AEGOSPOTAMI;Aegospotami;40.4000;26.2000;Naval battle site near the Hellespont where Athens lost its fleet in 405 BCE.
+PL_WESTMINSTER;Westminster;51.4995;-0.1248;England
+PL_YORKSHIRE_COAST;Yorkshire Coast;54.2000;-0.3000;England
+PL_FULFORD;Fulford;53.9380;-1.0670;England
+PL_STAMFORD_BRIDGE;Stamford Bridge;53.9910;-0.9150;England
+PL_PEVENSEY;Pevensey;50.8190;0.3390;England
+PL_HASTINGS;Hastings;50.9110;0.4870;England
+PL_NORTHERN_ENGLAND;Northern England;54.5000;-2.5000;England
+PL_ELY;Ely;52.3998;0.2624;England
+PL_ROME;Rome;41.9028;12.4964;Capital of the Roman Republic and center of political power
+PL_HISPANIA;Hispania (Iberian Peninsula);40.0000;-4.0000;General theatre for Caesar’s early command and later campaigns
+PL_HISPANIA_ULTERIOR;Hispania Ulterior;37.5000;-5.5000;Caesar’s governorship region in southern Iberia
+PL_CORDUBA;Corduba (Córdoba);37.8882;-4.7794;Key city in Hispania Ulterior
+PL_GADES;Gades (Cádiz);36.5271;-6.2886;Major port and Roman base in southern Hispania
+PL_HISPANIA_CITERIOR;Hispania Citerior;41.7000;-1.0000;Campaign theatre in northeastern Iberia (Ilerda campaign)
+PL_ILERDA;Ilerda (Lleida);41.6167;0.6200;Caesar’s decisive 49 BCE campaign in Spain against Pompeian forces
+PL_MUNDA;Munda (approx.);37.4500;-4.5000;Site of Caesar’s final major victory in 45 BCE (approximate location)
+PL_GAUL;Gaul;46.2000;2.2000;General theatre of the Gallic War
+PL_BIBRACTE;Bibracte (Mont Beuvray);46.9500;4.0330;Gallic War: early campaign area (Helvetii)
+PL_GERGOVIA;Gergovia;45.7270;3.1490;Gallic War: major engagement and setback
+PL_ALESIA;Alesia (Alise-Sainte-Reine);47.5360;4.4890;Gallic War: decisive siege and victory
+PL_MARSEILLE;Massilia (Marseille);43.2965;5.3698;Siege during Civil War (49 BCE)
+PL_RUBICON;Rubicon River (crossing area);44.1350;12.2400;Symbolic crossing into Italy in 49 BCE (approximate)
+PL_RAVENNA;Ravenna;44.4184;12.2035;Caesar’s staging area in northern Italy
+PL_ARIMINUM;Ariminum (Rimini);44.0678;12.5695;Early Civil War: first Italian town secured after Rubicon
+PL_BRUNDISIUM;Brundisium (Brindisi);40.6327;17.9418;Key port for crossing to Greece
+PL_DYRRHACHIUM;Dyrrhachium (Durrës);41.3231;19.4414;Civil War: major operations and battle area in 48 BCE
+PL_THESSALONICA;Thessalonica;40.6401;22.9444;Regional hub in Macedonia during the Civil War
+PL_PHARSALUS;Pharsalus (Farsala);39.2947;22.3847;Civil War: decisive battle in 48 BCE
+PL_ALEXANDRIA;Alexandria;31.2001;29.9187;Egypt: Caesar’s intervention and Alexandrian War
+PL_NILE_DELTA;Nile Delta;30.8000;31.0000;Egypt operational region during Caesar’s intervention
+PL_ZELA;Zela (Zile);40.2997;35.8864;‘Veni  vidi  vici’ victory over Pharnaces (47 BCE)
+PL_AFRICA;North Africa (Roman Africa);34.0000;10.0000;Civil War: African campaign theatre in 46 BCE
+PL_UTICA;Utica;37.0569;10.0630;African campaign: key port and political center
+PL_THAPSUS;Thapsus (near Bekalta);35.3000;10.9000;African campaign: decisive battle in 46 BCE
+PL_THEATRE_OF_POMPEY;Theatre of Pompey (Curia);41.8949;12.4768;Assassination site in Rome (Curia of Pompey)
+PL_VOSGES_ALSACE;Vosges / Upper Rhine (Ariovistus);48.2000;7.5000;Defeat of Ariovistus in eastern Gaul near the Vosges mountains (approximate region)
+PL_RHINE_CROSSING;Rhine Crossing (near Koblenz);50.4000;7.4700;Approximate location of Caesar’s bridge across the Rhine in 55 BCE
+PL_GALLIC_WINTER_CAMP;Northern Gaul Winter Quarters;49.8000;3.0000;Generalized area of Roman winter camps during widespread Gallic revolt
+PL_VERCINGETORIX_CORE;Arvernian Territory (Auvergne);45.8000;3.1000;Core region of Vercingetorix and Gallic resistance leadership
+PL_SABIS;Sabis River (near Saulzoir);50.2400;3.4400;Battle against the Belgic coalition often identified with the River Selle or Sambre
+PL_RHINE_BRIDGE;Rhine Crossing (near Koblenz);50.4000;7.4700;Approximate site of Caesar’s bridge across the Rhine in 55 BCE
+PL_BRITAIN_KENT;Kent Coast (Britain landing);51.2200;1.4000;Probable landing area for Caesar’s British expeditions
+PL_NORTHERN_GAUL;Northern Gaul;49.8000;3.0000;Region of winter quarters and widespread revolt in 53 BCE
+PL_TRIPOLI;Tripoli;32.8872;13.1913;Major Axis supply port in Libya and logistical base for the Afrika Korps
+PL_BENGHAZI;Benghazi;32.1167;20.0667;Key Cyrenaican port repeatedly captured and recaptured during desert offensives
+PL_TOBRUK;Tobruk;32.0833;23.9667;Strategic fortified port besieged in 1941 and captured by Axis in 1942
+PL_EL_ALAMEIN;El Alamein;30.8333;28.9500;Defensive bottleneck between Mediterranean and Qattara Depression decisive battles 1942
+PL_ALEXANDRIA_EGYPT;Alexandria (Egypt);31.2001;29.9187;Primary British logistical base and eastern anchor of desert defense
+PL_MARETH;Mareth Line;33.6000;10.3000;French-built fortified defensive line in southern Tunisia used by Axis in 1943
+PL_TUNIS;Tunis;36.8065;10.1815;Axis administrative and operational center in Tunisia, surrendered May 1943
+PL_KASSERINE;Kasserine Pass;35.1667;8.8333;Mountain pass in western Tunisia site of major Axis counteroffensive February 1943
+PL_LIBYA_EGYPT_BORDER;Libya–Egypt Border (Sollum–Fort Capuzzo);31.5580;25.1690;Frontier sector where Italian forces crossed into Egypt September 1940
+PL_GAZALA;Gazala (near Ain el Gazala);32.5330;23.0830;Desert defensive line west of Tobruk broken by Axis forces May 1942
+PL_ALGIERS;Algiers;36.7538;3.0588;Primary Allied landing site during Operation Torch November 1942
+PL_SIDI_BARRANI;Sidi Barrani;31.5667;25.1167;Forward Italian camp complex destroyed during Operation Compass December 1940
+PL_BARDIA;Bardia;31.7560;25.0860;Fortified Italian port captured by British forces January 1941
+PL_BEDA_FOMM;Beda Fomm;30.8830;19.6330;Desert blocking position where British forces encircled Italian 10th Army February 1941
+PL_HALFAYA_PASS;Halfaya Pass;31.5040;25.1900;Key escarpment pass on the Egyptian frontier contested during Operation Battleaxe
+PL_MERSA_MATRUH;Mersa Matruh;31.3525;27.2373;Egyptian coastal town forming intermediate defensive line June 1942
+PL_ALAM_HALFA;Alam Halfa Ridge;30.9830;28.9000;Defensive ridge southeast of El Alamein where Rommel’s August 1942 attack failed
+PL_MEDENINE;Medenine;33.3500;10.5000;Tunisian town south of Mareth, site of failed Axis counterattack March 1943
+PL_EL_GUETTAR;El Guettar;34.3350;8.9440;Tunisian valley where US forces defeated German armored counterattack March 1943
+PL_ALGIERS;Algiers;36.7538;3.0588;Primary Allied landing site during Operation Torch in November 1942.
+PL_CASABLANCA;Casablanca;33.5731;-7.5898;Western landing site of Operation Torch in Morocco.
+PL_TUNIS;Tunis;36.8065;10.1815;Axis-held capital and final objective of the North African Campaign.
+PL_SICILY;Sicily;37.5999;14.0154;Island invaded by Allied forces during Operation Husky in July 1943.
+PL_GOTHIC_LINE;Gothic Line;44.8807;11.9304;German defensive line across northern Italy in 1944.
+PL_SALERNO;Salerno;40.6824;14.7681;Allied landing site during Operation Avalanche in September 1943.
+PL_ANZIO;Anzio;41.4475;12.6280;Amphibious landing site during Operation Shingle in January 1944.
+PL_MONTE_CASSINO;Monte Cassino;41.4906;13.8140;Key defensive position and abbey dominating the Gustav Line.
+PL_NAPLES;Naples;40.8518;14.2681;Major port city captured by Allied forces in October 1943.
+PL_GELA;Gela;37.0730;14.2400;Primary U.S. landing site during Operation Husky.
+PL_SYRACUSE;Syracuse;37.0755;15.2866;British landing sector during Operation Husky.
+PL_FRENCH_RIVIERA;French Riviera;43.5500;7.0167;Coastal region attacked in initial landing
+PL_NEAR_DROME;Drome region;44.5000;5.5000;Area behind landing beaches for airborne operation
+PL_TOULON;Toulon;43.1242;5.9280;Key Mediterranean port city
+PL_HYERES;Hyères;43.1167;6.1250;Coastal town east of Toulon
+PL_SAINT_RAPHAEL;Saint-Raphaël;43.4299;6.7669;Coastal town secured during advance
+PL_CANNES;Cannes;43.5528;7.0174;Famous resort town on French Riviera
+PL_MONTELIMAR;Montélimar;44.5698;4.7520;Strategic town blocking German retreat
+PL_LYON;Lyon;45.7578;4.8320;Location of Allied forces link-up
+PL_PROVENCE;Provence;43.9510;5.0423;Southern France region invaded
+PL_NICE;Nice;43.7102;7.2620;Important coastal city near Italian border
+PL_ARROMANCHES;Arromanches-les-Bains;49.3406;-0.6236;Site of the British Mulberry harbour during D-Day
+PL_AVRANCHES;Avranches;48.6847;-1.3567;Strategic town liberated during Operation Cobra
+PL_BAYEUX;Bayeux;49.2768;-0.7039;First major town liberated by the Allies in Normandy
+PL_CAEN;Caen;49.1829;-0.3700;Major objective of British and Canadian forces during the Normandy campaign
+PL_CAEN_EAST;Eastern Caen;49.1830;-0.3200;Area of intense fighting during the Battle for Caen
+PL_CARENTAN;Carentan;49.3036;-1.2483;Key junction between Utah and Omaha beaches
+PL_CHERBOURG;Cherbourg;49.6333;-1.6167;Major port captured by the Allies in June 1944
+PL_FALAISE;Falaise;48.8917;-0.1939;Site of the Falaise Pocket encirclement
+PL_MORTAIN;Mortain;48.6472;-0.9456;Location of German counterattack in August 1944
+PL_NORMANDY;Normandy;49.1829;-0.3700;Region in northern France
+PL_NORMANDY_BEACHES;Normandy Beaches;49.4144;-0.8322;Landing sites for Allied invasion on D-Day
+PL_POINTE_DU_HOC;Pointe du Hoc;49.3981;-0.9894;Cliff assaulted by US Rangers on D-Day
+PL_SAINT_LO;Saint-Lô;49.1172;-1.0903;Heavily bombed town captured during Operation Cobra
+PL_TILLY_SUR_SEULLES;Tilly-sur-Seulles;49.1692;-0.6172;Scene of fierce fighting between British and German forces
+PL_VILLIERS_BOCAGE;Villiers-Bocage;49.0950;-0.8994;Site of famous tank battle in June 1944
+FI_HELSINKI;Helsinki;60.1699;24.9384;Capital of Finland and key political center during the Winter War
+FI_KARELIAN_ISTHMUS;Karelian Isthmus;60.7000;29.5000;Strategic region between Lake Ladoga and the Gulf of Finland
+FI_KOLLAA;Kollaa;62.3000;31.0000;Site of fierce Finnish resistance during the Winter War
+FI_RAATE;Raate;64.7000;29.2000;Location of the Battle of Raate Road
+FI_SALLA;Salla;66.8333;28.6667;Northern Finnish town attacked by Soviet forces
+FI_SUMMA;Summa;60.7000;29.2000;Key defensive position on the Mannerheim Line
+FI_SUOMUSSALMI;Suomussalmi;64.9000;28.9000;Site of major Finnish victory against Soviet forces
+FI_TAIPALE;Taipale;61.2000;30.4000;Important sector on the eastern Mannerheim Line
+FI_VIIPURI;Viipuri;60.7167;28.7500;Major Finnish city and strategic objective for the Soviets
+RU_MOSCOW;Moscow;55.7558;37.6173;Capital of the Soviet Union and command center for Soviet operations
+PL_GRAVELOTTE;Gravelotte;49.1167;6.0167;Site of the Battle of Gravelotte
+PL_MARS_LA_TOUR;Mars-la-Tour;49.1333;5.8833;Site of the Battle of Mars-la-Tour
+PL_METZ;Metz;49.1193;6.1757;Fortified city in Lorraine, France
+PL_SAARBRUCKEN;Saarbrücken;49.2400;6.9969;City near the Franco-German border
+PL_SPICHEREN;Spicheren;49.2000;6.9500;Site of the Battle of Spicheren
+PL_VERSAILLES;Versailles;48.8049;2.1204;Location of the proclamation of the German Empire
+PL_WISSEMBOURG;Wissembourg;49.0350;7.9450;Site of the Battle of Wissembourg
+PL_WORTH;Wörth;48.9400;7.9500;Site of the Battle of Wörth
+PL_73_EASTING;73 Easting;29.9847;47.6742;Site of a major tank battle during the Gulf War
+PL_BAGHDAD;Baghdad;33.3152;44.3661;Capital of Iraq
+PL_HIGHWAY_80;Highway 80;29.3367;47.9408;Known as the Highway of Death during the Gulf War
+PL_KHAFJI;Khafji;28.4394;48.4917;Saudi city near the Kuwaiti border and site of the Battle of Khafji
+PL_KUWAIT_BORDER;Kuwait Border;29.0578;47.9745;Border region between Kuwait and Iraq
+PL_KUWAIT_CITY;Kuwait City;29.3759;47.9774;Capital of Kuwait
+PL_RIYADH;Riyadh;24.7136;46.6753;Capital of Saudi Arabia
+PL_SAFWAN;Safwan;30.2000;47.6167;Site of the Gulf War ceasefire negotiations
+PL_SAUDI_ARABIA;Saudi Arabia;23.8859;45.0792;Key coalition staging area during the Gulf War
+PL_TEL_AVIV;Tel Aviv;32.0853;34.7818;Major Israeli city targeted by Iraqi missiles
+PL_UN_HEADQUARTERS;UN Headquarters;40.7498;-73.9680;United Nations headquarters in New York
+PL_WASHINGTON_DC;Washington D.C.;38.8951;-77.0364;Capital of the United States
+PL_RHINE;Rhine;50.1109;8.6821;Major European river, strategic frontier in Napoleonic Wars
+PL_SCHONBRUNN;Schönbrunn;48.1845;16.3122;Palace in Vienna, Napoleon's headquarters in 1809
+PL_AGNADELLO;Agnadello;45.4167;9.5833;Site of the 1509 battle in Lombardy, Italy
+PL_ALPS;Alps;45.8326;6.8652;Mountain range separating Italy from France and Switzerland
+PL_CAMBRAI;Cambrai;50.1756;3.2342;City in northern France, site of the 1529 peace treaty
+PL_CATEAU_CAMBREISIS;Le Cateau-Cambrésis;50.1036;3.5497;Town in northern France, site of the 1559 peace treaty
+PL_CERESOLE;Ceresole Alba;44.7833;7.9333;Site of the 1544 battle in Piedmont, Italy
+PL_FLORENCE;Florence;43.7696;11.2558;Major city in Tuscany, Italy
+PL_FORNOVO;Fornovo di Taro;44.6100;10.0933;Site of the 1495 battle in Emilia-Romagne, Italy
+PL_GARIGLIANO;Garigliano;41.2667;13.7833;River in central Italy, site of the 1503 battle
+PL_GUINEGATE;Guinegate;50.4500;2.1167;Site of the 1513 battle in northern France
+PL_MARIGNANO;Marignano (Melegnano);45.3572;9.3275;Site of the 1515 battle near Milan, Italy
+PL_MILAN;Milan;45.4642;9.1900;Major city in Lombardy, Italy
+PL_PAVIA;Pavia;45.1847;9.1582;Site of the 1525 battle in Lombardy, Italy
+PL_ST_QUENTIN;Saint-Quentin;49.8489;3.2876;Site of the 1557 battle in northern France
+KR_38TH_PARALLEL;38th Parallel;38.0000;127.0000;Demarcation line dividing North and South Korea
+KR_CHOSIN;Chosin Reservoir;40.4200;127.3500;Site of major UN-Chinese battle during winter 1950
+KR_IMJIN;Imjin River;37.8000;126.9000;Key frontline sector during Chinese Spring Offensive
+KR_INCHON;Inchon (Incheon);37.4563;126.7052;West coast port and landing site of UN amphibious operation
+KR_KAESONG;Kaesong;37.9708;126.5544;Initial site of armistice negotiations near the front line
+KR_OSAN;Osan;37.1450;127.0694;Site of first US-North Korean engagement (Task Force Smith)
+KR_PANMUNJOM;Panmunjom;37.9566;126.6792;Armistice site in the Korean Demilitarized Zone
+KR_PUSAN;Busan (Pusan);35.1796;129.0756;Final defensive perimeter and main UN supply port
+KR_PYONGYANG;Pyongyang;39.0392;125.7625;Capital of North Korea and key UN objective in 1950
+KR_SEOUL;Seoul;37.5665;126.9780;Capital of South Korea, captured and recaptured multiple times
+KR_TAEJON;Daejeon (Taejon);36.3504;127.3845;Key delay battle during North Korean advance
+KR_WHITE_HORSE;White Horse Hill;38.2800;127.2300;Heavily contested hill in central front during stalemate
+KR_YALU_RIVER;Yalu River;40.8500;124.3000;Border between China and North Korea and trigger line for Chinese intervention
+BOSTON;Boston;42.3601;-71.0589;
+CAMBRIDGE;Cambridge;42.3736;-71.1097;
+CHARLESTON;Charleston;32.7765;-79.9311;
+CHARLESTOWN;Charlestown;42.3782;-71.0602;Now a neighborhood of Boston
+COWPENS;Cowpens;35.1371;-81.8101;
+FORT_TICONDEROGA;Fort Ticonderoga;43.8487;-73.4236;
+LEXINGTON_AND_CONCORD;Lexington and Concord;42.4473;-71.2255;
+LONG_ISLAND;Long Island;40.7891;-73.1350;
+MONMOUTH;Monmouth;40.2582;-74.1230;
+PARIS;Paris;48.8566;2.3522;
+PHILADELPHIA;Philadelphia;39.9526;-75.1652;
+QUEBEC_CITY;Quebec City;46.8139;-71.2082;
+SARATOGA;Saratoga;43.0997;-73.5822;
+SAVANNAH;Savannah;32.0809;-81.0912;
+TRENTON;Trenton;40.2171;-74.7429;
+YORKTOWN;Yorktown;37.2388;-76.5097;
+ARRAS;Arras;50.2896;2.7807;City in northern France
+BARCELONA;Barcelona;41.3851;2.1734;Capital of Catalonia
+BREDA;Breda;51.5719;4.7683;City in the Netherlands
+CATALONIA;Catalonia;41.5912;1.5209;Region in northeastern Spain
+CORBIE;Corbie;49.9117;2.5122;Town in northern France
+DOWNS;Downs;51.2500;1.5000;Anchorage off English coast
+DUNES;Dunes;51.0833;2.5333;Near Dunkirk France
+FREIBURG;Freiburg;47.9990;7.8421;City in southwest Germany
+NAPLES;Naples;40.8518;14.2681;City in southern Italy
+PERPIGNAN;Perpignan;42.6986;2.8956;City in southern France
+PYRENEES;Pyrenees;42.6667;0.6667;Mountain range France Spain
+RHEINFELDEN;Rheinfelden;47.5531;7.7925;City in Switzerland
+ROCROI;Rocroi;49.9231;4.5211;Fortified town in France
+SPANISH_NETHERLANDS;Spanish Netherlands;50.8503;4.3517;Region in modern Belgium
+WESTPHALIA;Westphalia;51.5000;7.5000;Region in Germany
+AIX_LA_CHAPELLE;Aix-la-Chapelle;50.7753;6.0839;Treaty location ending the Devolution War
+CHARLEROI;Charleroi;50.4108;4.4446;Fortified city in the Spanish Netherlands
+DOUAI;Douai;50.3708;3.0797;Strategic fortress in northern France
+FLANDERS;Flanders;51.0000;3.0000;Region in the Spanish Netherlands main theatre of operations
+LILLE;Lille;50.6292;3.0573;Major fortified city captured by France
+OUDENARDE;Oudenarde;50.8517;3.6050;Fortified town in the Spanish Netherlands
+THE_HAGUE;The Hague;52.0705;4.3007;Seat of Dutch government and diplomacy
+TOURNAI;Tournai;50.6050;3.3870;Fortified city in the Spanish Netherlands
+AGOSTA;Agosta;37.5167;15.1667;Naval battle site near Sicily
+CASSEL;Cassel;50.8000;2.4833;Town in northern France
+DUTCH_REPUBLIC;Dutch Republic;52.1326;5.2913;Historical region
+ENTZHEIM;Entzheim;48.5450;7.6270;Alsace region France
+FEHRBELLIN;Fehrbellin;52.8000;12.7667;Brandenburg Germany
+GHENT;Ghent;51.0543;3.7174;City in Flanders
+GRONINGEN;Groningen;53.2194;6.5665;City in northern Netherlands
+HOLLAND;Holland;52.0000;4.5000;Region in Dutch Republic
+LONDON;London;51.5074;-0.1278;Capital of England
+NIJMEGEN;Nijmegen;51.8420;5.8526;City in Netherlands
+SCHOONEVELD;Schooneveld;51.5000;3.5000;Coastal waters Zeeland
+SENEFFE;Seneffe;50.5250;4.2667;Belgium near Charleroi
+TEXEL;Texel;53.1000;4.8000;Dutch island North Sea
+TOLHUIS;Tolhuis;51.8800;5.9700;Near Nijmegen
+UTRECHT;Utrecht;52.0907;5.1214;City in Netherlands
+BEACHY_HEAD;Beachy Head;50.738;0.244;Cliffs in southern England
+FLEURUS;Fleurus;50.483;4.550;Town in Belgium
+LAGOS;Lagos;37.102;-8.674;Coastal town in Portugal
+LANDEN;Landen;50.752;5.081;Town in Belgium
+LA_HOGUE;La Hogue;49.583;-1.250;Coastal area in Normandy
+MONS;Mons;50.454;3.952;City in Belgium
+NAMUR;Namur;50.467;4.867;City in Belgium
+NEERWINDEN;Neerwinden;50.783;5.033;Village in Belgium
+PHILIPPSBURG;Philippsburg;49.238;8.461;Town in Germany
+RHINELAND;Rhineland (Central);50.110;7.300;Approximate central point of the Rhineland region
+RYSWICK;Ryswick;52.045;4.334;Town in Netherlands
+STEENKERQUE;Steenkerque;50.600;4.100;Village in Belgium
+TURIN;Turin;45.070;7.686;City in Italy
+WALCOURT;Walcourt;50.254;4.434;Town in Belgium
+ALMANSA;Almansa;38.8708;-1.0916;Battle site in Spain
+BLENHEIM;Blenheim;48.6139;10.8667;Battle site in Bavaria
+DENAIN;Denain;50.3297;3.3931;Battle site in France
+GIBRALTAR;Gibraltar;36.1408;-5.3536;Strategic fortress
+KAISERSWERTH;Kaiserswerth;51.3147;6.7222;Siege site in Germany
+MALPLAQUET;Malplaquet;50.3167;3.8167;Battle site in France
+MUNICH;Munich;48.1351;11.5820;City in Bavaria
+RAMILLIES;Ramillies;50.6833;4.9000;Battle site in Belgium
+RASTATT;Rastatt;48.8584;8.2096;Site of peace treaty
+SARAGOSSA;Saragossa;41.6488;-0.8891;Battle site in Spain
+VIENNA;Vienna;48.2082;16.3738;Capital of Austria
+VIGO_BAY;Vigo Bay;42.2333;-8.7333;Naval battle site
+MADRID;Madrid;40.4168;-3.7038;Capital of Spain
+BASQUE_COUNTRY;Basque Country;43.0;-2.5;Region in northern Spain
+CAPE_PASSARO;Cape Passaro;36.683;15.133;Coastal point in Sicily
+FRANCAVILLA;Francavilla;37.883;15.183;Town in Sicily
+MESSINA;Messina;38.193;15.554;City in Sicily
+MILAZZO;Milazzo;38.217;15.233;Port town in Sicily
+PALERMO;Palermo;38.115;13.361;Capital of Sicily
+SAN_SEBASTIAN;San Sebastian;43.322;-1.985;City in Basque Country
+SARDINIA;Sardinia;40.120;9.012;Island in Mediterranean
+SICILY;Sicily;37.600;14.015;Island in Mediterranean
+VIGO;Vigo;42.233;-8.716;Port city in Spain
+SCOTLAND;Scotland;56.5;-4.0;Region in Great Britain
+CARILLON;Fort Carillon;44.1047;-73.3761;Later named Ticonderoga
+GROSS-JAGERSDORF;Gross-Jägersdorf;54.6667;21.0833;East Prussia
+HAVANA;Havana;23.1136;-82.3666;Cuba
+HOCHKIRCH;Hochkirch;51.1333;14.5667;Saxony
+KAMPEN;Kloster Kampen;51.5167;6.5500;Westphalia Germany
+MINORCA;Minorca;39.9400;4.1300;Balearic Islands
+OSWEGO;Fort Oswego;43.4553;-76.5105;New York
+PLASSEY;Plassey;23.7833;88.2500;India
+QUEBEC;Quebec;46.8139;-71.2080;Canada
+ROSSBACH;Rossbach;51.2167;11.8667;Thuringia
+SAXONY;Saxony;51.1045;13.2017;Germany
+ST_PETERSBURG;St. Petersburg;59.9343;30.3351;Russia
+TICONDEROGA;Fort Ticonderoga;44.1047;-73.3761;New York
+VILLINGHAUSEN;Villinghausen;51.6167;8.1833;Westphalia
+WANDIWASH;Wandiwash;12.1642;79.6042;India
+ZORNDORF;Zorndorf;52.6833;14.6333;Brandenburg
+ABOUKIR_BAY;Aboukir Bay;31.3167;30.0667;Bay near Alexandria Egypt
+ACRE;Acre;32.9236;35.0818;City in present-day Israel
+AMIENS;Amiens;49.8950;2.3020;City in northern France
+BASEL;Basel;47.5596;7.5886;City in Switzerland
+CAIRO;Cairo;30.0444;31.2357;Capital of Egypt
+CAMPO_FORMIO;Campo Formio;45.9694;13.4250;Village in Italy
+JEMAPPES;Jemappes;50.4333;3.8667;Town in Belgium
+LUNEVILLE;Lunéville;48.5917;6.5014;Town in France
+MARENGO;Marengo;44.9167;8.6333;Area in northern Italy
+NORTHERN_ITALY;Northern Italy;45.0000;9.0000;Region of Italy
+TOULON;Toulon;43.1242;5.9280;Port city in southern France
+VALMY;Valmy;49.0333;4.6333;Village in France
+WATTIGNIES;Wattignies;50.4167;3.9833;Village in France
+PL_BOULOGNE;Boulogne-sur-Mer;50.7264;1.6147;French coastal city and invasion camp location
+PL_CHANNEL;English Channel;50.0000;-2.0000;Primary operational area of naval maneuvering between France and Britain
+PL_TRAFALGAR;Cape Trafalgar;36.1800;-6.0300;Naval battle site off the coast of Spain
+ABO;Abo;60.4518;22.2666;Modern Turku
+ABBORFORS;Abborfors;60.7500;26.8000;River crossing and fortification site on Kymijoki
+FALUN;Falun;60.6077;15.6316;Sweden
+FINLAND;Finland;64.0000;26.0000;Region
+HELSINGFORS;Helsingfors;60.1695;24.9354;Modern Helsinki
+KIEL;Kiel;54.3233;10.1228;Port city
+KYMMENE_RIVER;Kymmene River;60.6667;26.8000;Border river
+STOCKHOLM;Stockholm;59.3293;18.0686;Swedish capital
+VILLMANSTRAND;Villmanstrand;61.0610;28.1887;Modern Lappeenranta
+VIBORG;Viborg;60.7090;28.7520;Modern Vyborg Russia
+FREDRIKSHAMN;Fredrikshamn;60.5670;27.2000;Modern Hamina Finland
+ANJALA;Anjala;60.683;27.083;Key Finnish site linked to officer revolt
+BOHUSLAN;Bohuslan;58.350;11.900;Swedish coastal region
+HOGLAND;Hogland;60.050;27.000;Island in Gulf of Finland
+KELTIS;Keltis;61.050;28.250;Approximate site in southeastern Finland (verify)
+KVISTRUM;Kvistrum;58.470;11.650;Battle site in Bohuslan
+NYSLOTT;Nyslott;61.867;28.883;Fortified Finnish town (Savonlinna)
+PORRASSALMI;Porrassalmi;61.683;27.267;Important battlefield in Savonia
+REVAL;Reval;59.437;24.753;Major Baltic port (Tallinn)
+SVENSKSUND;Svensksund;60.433;26.950;Naval battle area (Ruotsinsalmi)
+VARALA;Varala;60.683;27.050;Site of Treaty of Varala (Värälä)
+VYBORG_BAY;Vyborg Bay;60.700;28.700;Strategic bay near Vyborg
+KRONSTADT;Kronstadt;59.993;29.766;Russian naval base near St Petersburg
+VALKEALA;Valkeala;60.900;26.800;Battle area in southeastern Finland
+SAVITAIPALE;Savitaipale;61.200;27.700;Battle site in Karelia
+PARKUMAKI;Parkumaki;61.400;27.300;Approximate battlefield location
+UTTI;Utti;60.900;26.900;Area of fighting in southern Finland
+
+PL_ABBORFORS;Abborfors;60.5000;26.0000;Border crossing area at start of Russian invasion
+PL_ABO;Åbo;60.4518;22.2666;City in southwestern Finland
+PL_ALAVUS;Alavus;62.5833;23.6333;Battle site in western Finland
+PL_FREDRIKSHAMN;Fredrikshamn;60.5697;27.1886;Town where peace treaty was signed
+PL_GULF_OF_BOTHNIA;Gulf of Bothnia;63.0000;20.0000;Frozen sea crossed by Russian forces in 1809
+PL_HELSINGFORS;Helsingfors;60.1699;24.9384;Strategic city and fortress area (Sveaborg)
+PL_JUTAS;Juutas;63.5200;22.5300;Site of Sandels rearguard action
+PL_KOLJONVIRTA;Koljonvirta;63.5667;27.1833;Battle site near Iisalmi
+PL_LAPUA;Lapua;62.9706;23.0078;Battle site in western Finland
+PL_NYKARLEBY;Nykarleby;63.5211;22.5306;Town in western Finland
+PL_OLKIJOKI;Olkijoki;64.9500;25.3667;Armistice location
+PL_ORAVAIS;Oravais;63.2167;22.3833;Decisive battle site
+PL_PULKKILA;Pulkkila;64.0833;26.0167;Battle site in northern Finland
+PL_PYHAJOKI;Pyhäjoki;64.4667;24.2500;Rearguard battle site
+PL_REVOLAX;Revolax;64.6000;25.5667;Battle site in northern Finland
+PL_RUONA_SALMI;Ruona-Salmi;62.9833;22.9500;Turning point battle area
+PL_SIIKAJOKI;Siikajoki;64.7833;24.7667;Battle site in northern Finland
+PL_SKELLEFTEA;Skellefteå;64.7500;20.9500;Battle site in northern Sweden
+PL_STOCKHOLM;Stockholm;59.3293;18.0686;Capital of Sweden
+PL_SAVAR;Sävar;63.8333;20.1333;Battle site near Umeå
+PL_UMEA;Umeå;63.8258;20.2630;Operational center in northern Sweden
+PL_RATAN;Ratan;63.9833;20.9000;Coastal operational landing site
+PL_TILSIT;Tilsit;55.0833;22.5333;Site of 1807 treaty between Napoleon and Alexander I
+PL_KVIDINGE;Kvidinge;56.1333;13.0500;Death of crown prince Charles August
+PL_OREBRO;Örebro;59.2741;15.2066;Election of Bernadotte
+PL_LEIPZIG;Leipzig;51.3397;12.3731;Coalition victory over Napoleon
+PL_KIEL;Kiel;54.3233;10.1228;Treaty of Kiel location
+PL_CHRISTIANIA;Christiania;59.9139;10.7522;Norwegian capital in 1814
+
+VIENNA;Vienna;48.2082;16.3738;Capital of Austria and political center of Habsburg Monarchy
+PRAGUE;Prague;50.0755;14.4378;Key city in Bohemia contested during early campaigns
+BERLIN;Berlin;52.5200;13.4050;Capital of Prussia and political center of Frederick II
+MUNICH;Munich;48.1351;11.5820;Capital of Bavaria involved in anti-Habsburg coalition
+MOLLWITZ;Mollwitz;51.2200;17.0300;Battle site in Silesia (1741)
+CHOTUSITZ;Chotusitz;49.9497;15.3969;Battle site in Bohemia (1742)
+HOHENFRIEDBERG;Hohenfriedberg;50.8333;16.3500;Battle site in Silesia (1745)
+SOOR;Soor;50.5400;15.9100;Battle site in Bohemia (1745)
+KESSDORF;Kesselsdorf;51.0500;13.6000;Battle site near Dresden (1745)
+DETTINGEN;Dettingen;50.0300;9.0300;Battle site in Bavaria (1743)
+FONTENOY;Fontenoy;50.6167;3.3667;Battle site in Austrian Netherlands (1745)
+ROCOUX;Rocoux;50.6500;5.5167;Battle site near Liege (1746)
+LAWFELD;Lauffeld;50.8667;5.7667;Battle site near Maastricht (1747)
+MILAN;Milan;45.4642;9.1900;Strategic center in northern Italy
+PIACENZA;Piacenza;45.0526;9.6934;Battle site in Italy (1746)
+BASSANO;Bassano del Grappa;45.7667;11.7333;Operational area in northern Italy
+MAASTRICHT;Maastricht;50.8514;5.6900;Fortress city and strategic objective in Low Countries
+BRUSSELS;Brussels;50.8503;4.3517;Administrative center in Austrian Netherlands
+AIX_LA_CHAPELLE;Aix-la-Chapelle;50.7753;6.0839;Peace treaty location (1748)
+
+UKR_SEVASTOPOL;Sevastopol;44.6167;33.5254;Major Russian naval base and site of prolonged siege
+UKR_BALAKLAVA;Balaklava;44.5000;33.6000;Key British supply port and site of famous cavalry charge
+UKR_INKERMAN;Inkerman;44.6136;33.5731;Site of major battle between Allied and Russian forces
+UKR_EUPATORIA;Eupatoria;45.2000;33.3667;Landing site for Allied forces and base for operations
+UKR_KERCH;Kerch;45.3569;36.4746;Strategic strait and site of Allied landings
+UKR_YALTA;Yalta;44.4950;34.1667;Logistics and hospital center for Allied forces
+TUR_ISTANBUL;Istanbul;41.0082;28.9784;Ottoman command center and major logistics hub
+TUR_BOSPHORUS;Bosphorus Strait;41.1500;29.0500;Critical maritime chokepoint for Allied supply routes
+TUR_GALLIPOLI;Gallipoli Peninsula;40.1833;26.3667;Staging area for Allied forces en route to Crimea
+ROU_DANUBE;Danube Delta;45.2000;29.6000;Operational zone for early Russo-Ottoman clashes
+ROU_SILISTRA;Silistra;44.1167;27.2667;Site of major Ottoman defensive operations
+ROU_BUCHAREST;Bucharest;44.4268;26.1025;Regional logistics and command center for Ottoman forces
+RUS_ODESSA;Odessa;46.4825;30.7233;Russian Black Sea port and target of Allied naval raids
+RUS_NOVOROSSIYSK;Novorossiysk;44.7231;37.7689;Russian naval base and supply point
+RUS_TAGANROG;Taganrog;47.2362;38.8969;Site of Allied amphibious raids on Russian supply lines
+RUS_KHERS;Kherson;46.6354;32.6169;Russian logistics hub supporting Crimea
+RUS_NIKOLAEV;Mykolaiv (Nikolaev);46.9750;31.9946;Major Russian shipbuilding and supply center
+RUS_SIMFEROPOL;Simferopol;44.9521;34.1024;Russian administrative and logistics center in Crimea
+FRA_TOULON;Toulon;43.1242;5.9280;Primary French naval base for Black Sea operations
+GBR_PORTSMOUTH;Portsmouth;50.7989;-1.0912;Main British naval base supporting Mediterranean deployments
+GBR_MALTA;Malta;35.8997;14.5147;Key British staging and hospital base for Mediterranean operations
+MYS_IPOH;Ipoh;4.5975;101.0901;Key inland position controlling central Malayan communications, its loss exposed the defensive collapse of northern British lines.
+MYS_JOHOR;Johor;1.4854;103.7618;Final defensive region before Singapore, its breach marked the operational end of the Malayan peninsula campaign.
+MYS_KELANTAN;Kelantan;6.1254;102.2381;Initial Japanese landing zone enabling rapid establishment of a northern bridgehead and immediate pressure on British defenses.
+MYS_PENANG;Penang;5.4141;100.3288;Strategic port whose early loss secured Japanese logistics and demonstrated the speed of the Allied collapse.
+MYS_SINGAPORE;Singapore;1.3521;103.8198;Primary British fortress in Southeast Asia, its fall represented strategic collapse and a decisive shift in regional power.
+GBR_BIGGIN_HILL;RAF Biggin Hill;51.3306;0.0322;Key RAF sector station in Kent, central to Fighter Command operations.
+GBR_BIRMINGHAM;Birmingham;52.4862;-1.8904;Major industrial city targeted during German bombing raids.
+GBR_COVENTRY;Coventry;52.4068;-1.5197;Industrial city heavily damaged during German bombing.
+GBR_DOVER;Dover;51.1290;1.3080;Strategic port and frontline observation point during Channel operations.
+GBR_DUXFORD;RAF Duxford;52.0962;0.1297;Fighter airfield used in defense of eastern England.
+GBR_ESSEX;Essex Region;51.7760;0.0967;General region containing multiple RAF airfields and industrial targets.
+GBR_FELTWELL;RAF Feltwell;52.4840;0.5220;Airfield associated with night operations and bomber support.
+GBR_HORNCHURCH;RAF Hornchurch;51.5490;0.2160;Important RAF sector station defending London.
+GBR_KENLEY;RAF Kenley;51.3080;-0.0920;Key RAF fighter station south of London.
+GBR_LONDON;London;51.5074;-0.1278;Primary strategic and political target.
+GBR_POLING;Poling Radar Station;50.8360;-0.4530;Chain Home radar station critical for early warning.
+GBR_PORTSMOUTH;Portsmouth;50.8198;-1.0870;Major Royal Navy base and logistical hub.
+GBR_SOUTHAMPTON;Southampton;50.9097;-1.4044;Shipbuilding and port city targeted in bombing raids.
+GBR_TANGMERE;RAF Tangmere;50.8460;-0.7130;Frontline RAF fighter station during Channel battles.
+GBR_WEST_MALLING;RAF West Malling;51.2930;0.4080;RAF airfield supporting fighter operations in southeast England.
+SEA_CHANNEL;English Channel;50.0000;0.0000;Operational zone for early air and naval engagements.
+PL_BEIJING;Beijing;39.9042;116.4074;Capital of China, site of Marco Polo Bridge Incident
+PL_SHANGHAI;Shanghai;31.2304;121.4737;Major port city and site of large-scale urban battle
+PL_NANJING;Nanjing;32.0603;118.7969;Capital of China in 1937, captured by Japanese forces
+PL_WUHAN;Wuhan;30.5928;114.3055;Strategic city and temporary wartime capital of China
+PL_YELLOW_RIVER;Yellow River;34.0;108.0;Flooded by Chinese forces to slow Japanese advance
+PL_CHANGSHA;Changsha;28.2282;112.9388;Key city in central China, site of repeated battles
+PL_NORTH_CHINA;North China;36.0;112.0;Region of guerrilla warfare and Communist operations
+PL_CHONGQING;Chongqing;29.4316;106.9123;Wartime capital of China after fall of Nanjing
+PL_BURMA_ROAD;Burma Road;25.0;98.0;Supply route linking China to Allied support via Burma
+PL_HENAN;Henan;34.2904;113.3824;Province targeted during Operation Ichi-Go
+PL_CHINA;China;35.0;103.0;General location representing nationwide surrender
+PL_EAST_PRUSSIA;East Prussia;54.7;20.5;German staging area for Army Group North and Center
+PL_POLAND_GENERAL;Occupied Poland;52.0;19.0;Primary launch zone for invasion
+PL_BALTIC_REGION;Baltic States;56.9;24.6;Operational zone for Army Group North
+PL_LITHUANIA;Lithuania;55.2;23.9;Early axis of advance
+PL_LATVIA;Latvia;56.9;24.6;Advance toward Leningrad
+PL_ESTONIA;Estonia;58.6;25.0;Northern operational zone
+PL_LENINGRAD;Leningrad;59.9;30.3;Strategic objective in the north
+PL_LAKE_LADOGA;Lake Ladoga;60.8;31.5;Key supply route for Leningrad
+PL_BELARUS;Belarus;53.7;27.9;Central axis of advance
+PL_MINSK;Minsk;53.9;27.6;Major encirclement battle
+PL_SMOLENSK;Smolensk;54.8;32.0;Gateway to Moscow
+PL_MOSCOW;Moscow;55.8;37.6;Primary strategic objective
+PL_BRYANSK;Bryansk;53.2;34.4;Operational zone before Moscow
+PL_UKRAINE_NORTH;Northern Ukraine;50.4;30.5;Southern axis of advance
+PL_KIEV;Kiev;50.4;30.5;Largest encirclement battle
+PL_DNIEPER_LINE;Dnieper River Line;48.5;32.3;Major defensive line
+PL_SMOLENSK_CORRIDOR;Smolensk Corridor;54.5;33.0;Key operational route to Moscow
+PL_VYAZMA;Vyazma;55.2;34.3;Encirclement west of Moscow
+PL_RZHEV;Rzhev;56.3;34.3;Strategic stronghold near Moscow
+PL_FINLAND_FRONT;Finland Front;61.9;25.7;Northern axis with Finnish cooperation
+PL_KARELIA;Karelia;62.0;32.0;Operational zone north of Leningrad
+PL_BLACK_SEA_NORTH;Northern Black Sea;46.5;32.0;Southern flank
+PL_ROMANIA_AXIS;Romania Axis;45.9;24.9;Southern invasion support
+ZA_TRANSVAAL;Transvaal; -25.7;28.2;Boer republic and main theatre of operations
+ZA_KIMBERLEY;Kimberley; -28.74;24.77;Diamond mining city under siege
+ZA_MAFEKING;Mafeking (Mahikeng); -25.86;25.64;British garrison town besieged by Boers
+ZA_LADYSMITH;Ladysmith; -28.56;29.78;Site of major battle and siege
+ZA_STORMBERG;Stormberg; -31.09;26.53;Railway junction and battle site
+ZA_MAGERSFONTEIN;Magersfontein; -28.85;24.68;Boer defensive position north of Kimberley
+ZA_COLENSO;Colenso; -28.74;29.83;Battle site along Tugela River
+ZA_PAARDEBERG;Paardeberg Drift; -29.05;24.38;Site of decisive British victory
+ZA_PRETORIA;Pretoria; -25.75;28.19;Capital of Transvaal captured by British
+ZA_ORANGE_FREE_STATE;Orange Free State; -28.00;26.00;Boer republic and guerrilla war zone
+ZA_VEREENIGING;Vereeniging; -26.67;27.93;Location of peace treaty ending the war
+PORT_ARTHUR;Port Arthur;38.8000;121.2667;Major Russian naval base on the Liaodong Peninsula
+CHEMULPO;Chemulpo;37.4667;126.6333;Korean port near modern Incheon
+YALU_RIVER;Yalu River;40.1667;124.5000;Border river between Korea and Manchuria
+NANSHAN;Nanshan;38.9167;121.0833;Fortified ridge guarding approach to Port Arthur
+TELISSU;Telissu;39.5500;122.9500;Battle area in southern Manchuria
+YELLOW_SEA;Yellow Sea;35.0000;123.0000;Naval theatre between China and Korea
+LIAOYANG;Liaoyang;41.2670;123.1731;Strategic railway city in Manchuria
+SHAHO_RIVER;Shaho River;41.7000;123.4000;Battle area south of Mukden
+DOGGER_BANK;Dogger Bank;54.5000;2.5000;North Sea fishing grounds where Russian fleet fired on British trawlers
+TANGIER;Tangier;35.7595;-5.8340;Moroccan port visited by the Russian Baltic Fleet
+HILL_203;203 Meter Hill;38.8630;121.2430;Dominant hill overlooking Port Arthur harbor
+INDIAN_OCEAN;Indian Ocean;-10.0000;80.0000;Major transit route for the Russian Baltic Fleet
+SANDEPU;Sandepu;41.6500;122.9000;Winter battle area southwest of Mukden
+MUKDEN;Mukden;41.8039;123.4258;Major Manchurian city now known as Shenyang
+SINGAPORE_STRAIT;Singapore Strait;1.2000;103.8000;Strategic maritime passage into East Asia
+TSUSHIMA_STRAIT;Tsushima Strait;34.3000;129.3000;Sea passage between Korea and Japan
+PORTSMOUTH;Portsmouth;43.0718;-70.7626;New Hampshire city where peace treaty was signed
+WASHINGTON_DC;Washington, D.C.;38.9072;-77.0369;Capital of the United States and target of British attack in 1814
+DETROIT;Detroit;42.3314;-83.0458;Strategic frontier fort and settlement surrendered to British forces in 1812
+QUEENSTON_HEIGHTS;Queenston Heights;43.1594;-79.0497;Major battlefield on the Niagara frontier in Upper Canada
+YORK;York (Toronto);43.6532;-79.3832;Capital of Upper Canada captured by American forces in 1813
+LAKE_ERIE;Lake Erie;42.2000;-81.2000;Site of decisive naval operations in the Great Lakes theatre
+THAMES_RIVER;Thames River;42.5440;-81.9180;Battlefield where Tecumseh was killed in 1813
+HORSESHOE_BEND;Horseshoe Bend;32.6204;-85.7424;Site of Andrew Jackson's victory over the Red Stick Creeks
+CHIPPAWA;Chippawa;43.0500;-79.0500;Battlefield near Niagara River during the 1814 campaign
+LUNDYS_LANE;Lundy's Lane;43.0896;-79.0849;Site of one of the bloodiest battles of the war
+PLATTSBURGH;Plattsburgh;44.6995;-73.4529;Key American defensive position near Lake Champlain
+FORT_MCHENRY;Fort McHenry;39.2636;-76.5795;American fort defending Baltimore Harbor during British bombardment
+GHENT;Ghent;51.0543;3.7174;Belgian city where the peace treaty ending the war was signed
+NEW_ORLEANS;New Orleans;29.9511;-90.0715;Strategic Gulf Coast city defended by Andrew Jackson in 1815
+BALTIMORE;Baltimore;39.2904;-76.6122;Major American port city targeted during the Chesapeake campaign
+NIAGARA_FRONTIER;Niagara Frontier;43.1000;-79.0000;Strategic border region between the United States and Upper Canada
+LAKE_CHAMPLAIN;Lake Champlain;44.5000;-73.3000;Important northern invasion corridor between Canada and New York
+UPPER_CANADA;Upper Canada;43.5000;-80.0000;British colonial province and principal land theatre of the war
+CHESAPEAKE_BAY;Chesapeake Bay;37.8000;-76.3000;Operational theatre for British coastal raids and amphibious operations
+BERGSLAGEN;Bergslagen;60.0000;15.0000;Mining and iron-producing region central to Swedish resource production and political unrest.
+BORGANAS;Borganäs;60.6070;15.6350;Royal stronghold near Falun burned during Engelbrekt's uprising.
+ARBOGA;Arboga;59.3939;15.8388;Important assembly and trade town where Engelbrekt gained political legitimacy.
+GOKSHOLM;Göksholm;59.1230;15.4020;Location near which Engelbrekt Engelbrektsson was assassinated.
+STOCKHOLM;Stockholm;59.3293;18.0686;Political and strategic center of Sweden and major union stronghold.
+SKANE;Skåne;55.9900;13.5950;Southern Scandinavian frontier region contested during Swedish-Danish conflicts.
+ROTEBRO;Rotebro;59.4750;17.9390;Site north of Stockholm where Sten Sture's forces were defeated in 1497.
+VADLA;Vädla;58.4890;15.6210;Site of the 1517 battle between Sten Sture the Younger and Archbishop Gustav Trolle.
+BRANNKYRKA;Brännkyrka;59.2850;18.0000;Area south of Stockholm where Swedish forces defeated Danish troops in 1518.
+BOGESUND;Bogesund;59.4020;18.2430;Site of the decisive Danish victory over Sten Sture the Younger in 1520.
+DALARNA;Dalarna;60.5000;14.7000;Region of free peasants, bergsmän, and mining communities that supported repeated uprisings.
+VASTERAS;Västerås;59.6099;16.5448;Strategic inland trade and political center captured by Gustav Vasa's forces.
+LUBECK;Lübeck;53.8655;10.6866;Major Hanseatic city that supported Gustav Vasa with naval and commercial assistance.
+STRANGNAS;Strängnäs;59.3774;17.0312;Location where Gustav Vasa was elected King of Sweden in 1523.
+KALMAR;Kalmar;56.6634;16.3568;Union city associated with the Kalmar Union and strategic Baltic politics.
+UPPSALA;Uppsala;59.8586;17.6389;Religious and political center influential in Swedish elite politics.
+FALUN;Falun;60.6065;15.6355;Major copper mining center and economic core of Bergslagen.
+STOCKHOLM;Stockholm;59.3293;18.0686;Capital of Sweden and central political hub during the war
+OLAND_SEA;Sea off Öland;56.7000;17.0000;Major naval battle area in the Baltic Sea east of Öland
+ALVSBORG;Älvsborg Fortress;57.7000;11.9000;Strategic fortress controlling Swedish access to the North Sea near present-day Gothenburg
+AXTORNA;Axtorna;56.9500;12.6500;Site of the major 1564 land battle in Halland
+SVENSKSUND;Svensksund;60.4500;27.2500;Naval engagement area in the Gulf of Finland
+VARBERG;Varberg Fortress;57.1050;12.2500;Important Danish-held fortress on the western Scandinavian coast
+BORNHOLM_SEA;Sea near Bornholm;55.2000;15.2000;Baltic naval warfare zone near the island of Bornholm
+BOHUS;Bohus Fortress;57.8600;11.9750;Key border fortress between Norway and Sweden
+STETTIN;Stettin;53.4285;14.5528;Major Baltic port city where the peace treaty ending the war was signed
+LUBECK;Lübeck;53.8655;10.6866;Major Hanseatic city allied with Denmark during the war
+KALMAR;Kalmar;56.6634;16.3568;Important fortified Swedish Baltic city and naval base
+HALLAND;Halland;56.9000;12.8000;Contested Danish frontier province during the conflict
+PL_PLACE_COPENHAGEN;Copenhagen;55.6761;12.5683;Capital of Denmark and location of the Danish declaration of war
+PL_PLACE_OLAND_SEA;Sea south of Öland;56.2000;17.8000;Naval battle area south of Öland where Kronan sank
+PL_PLACE_BORNHOLM_SEA;Sea off Bornholm;55.2000;15.2000;Naval engagement area near Bornholm in the Baltic Sea
+PL_PLACE_KOGE_BAY;Køge Bay;55.4500;12.3000;Naval battle area south of Copenhagen
+PL_HELSINGBORG;Helsingborg;56.0465;12.6945;Major landing point for Danish forces in Scania
+PL_PLACE_LUND;Lund;55.7047;13.1910;Site of the decisive Battle of Lund and later peace treaty
+PL_PLACE_HALMSTAD;Halmstad;56.6745;12.8568;Town in Halland where Swedish forces defeated Danish troops
+PL_PLACE_LANDSKRONA;Landskrona;55.8703;12.8301;Site of the Battle of Landskrona
+PL_PLACE_MALMO;Malmö;55.6050;13.0038;Fortified Scanian city besieged by Danish forces
+PL_PLACE_KRISTIANSTAD;Kristianstad;56.0294;14.1567;Strategic northeastern Scanian fortress city
+PLC_FLORENCE;Florence;43.7696;11.2558;Capital of the Florentine Republic and primary theatre of the conflict
+PLC_CAMPALDINO;Campaldino;43.5930;11.8020;Site of the Battle of Campaldino in 1289
+PLC_AREZZO;Arezzo;43.4633;11.8796;Major Ghibelline stronghold in Tuscany
+PLC_ANAGNI;Anagni;41.7436;13.1556;Site of the Outrage of Anagni in 1303
+PLC_ROME;Rome;41.9028;12.4964;Seat of the Papacy before the Avignon period
+PLC_AVIGNON;Avignon;43.9493;4.8055;Seat of the Papacy from 1309
+PLC_PISA;Pisa;43.7228;10.4017;Important Tuscan maritime republic and regional power
+PLC_SIENA;Siena;43.3188;11.3308;Historic rival of Florence and former Ghibelline centre
+PLC_BUONCONVENTO;Buonconvento;43.1372;11.4805;Location near which Emperor Henry VII died in 1313
+PLC_RZHEV;Rzhev;56.2620;34.3299;Major German salient west of Moscow
+PLC_DEMYANSK;Demyansk;57.6430;32.4660;Location of the Demyansk Pocket
+PLC_KHARKOV;Kharkov;49.9935;36.2304;Major city in eastern Ukraine
+PLC_VORONEZH;Voronezh;51.6720;39.1843;Key objective during Case Blue
+PLC_ROSTOV;Rostov-on-Don;47.2357;39.7015;Gateway to the Caucasus
+PLC_MAIKOP;Maikop;44.6078;40.1058;Oil-producing region in the northern Caucasus
+PLC_STALINGRAD;Stalingrad;48.7080;44.5133;Present-day Volgograd
+PLC_KALACH;Kalach-on-Don;48.6900;43.5300;Location where Soviet pincers linked up
+PLC_KOTELNIKOVO;Kotelnikovo;47.6310;43.1460;Starting point of Operation Winter Storm
+PLC_KHARKOV;Kharkov;49.9935;36.2304;Major city in eastern Ukraine and site of the Third Battle of Kharkov
+PLC_KURSK;Kursk;51.7304;36.1926;Center of the Kursk salient and major Soviet defensive position
+PLC_PROKHOROVKA;Prokhorovka;51.0378;36.7322;Site of the famous tank battle during Operation Citadel
+PLC_DNIPRO;Dnipro;48.4647;35.0462;Major crossing point on the Dnieper River
+PLC_KYIV;Kyiv;50.4501;30.5234;Capital of Ukraine, liberated in November 1943
+PLC_LENINGRAD;Leningrad;59.9311;30.3609;Present-day Saint Petersburg, site of the long German siege
+PLC_KORSUN;Korsun-Shevchenkivskyi;49.4180;31.2580;Location of the Korsun pocket during the Dnieper-Carpathian Offensive
+PLC_SEVASTOPOL;Sevastopol;44.6167;33.5254;Major naval base in Crimea recaptured by Soviet forces in 1944
+PLC_MINSK;Minsk;53.9006;27.5590;Assembly area and strategic objective preceding Operation Bagration
+PLC_VITEBSK;Vitebsk;55.1904;30.2049;Major German stronghold in northern Belarus and one of the first objectives of Operation Bagration
+PLC_BOBRUISK;Bobruisk;53.1384;29.2214;Site of a major encirclement battle during the offensive
+PLC_MOGILEV;Mogilev;53.9007;30.3314;Key defensive position on the Dnieper line in Belarus
+PLC_MINSK;Minsk;53.9006;27.5590;Capital of Belarus and center of the Minsk encirclement
+PLC_VILNIUS;Vilnius;54.6872;25.2797;Capital of Lithuania and important communications hub
+PLC_BIALYSTOK;Bialystok;53.1325;23.1688;Major city in northeastern Poland captured during the Soviet advance
+PLC_BREST;Brest-Litovsk;52.0976;23.7341;Historic fortress city on the Polish-Belarusian frontier
+PLC_WARSAW;Warsaw;52.2297;21.0122;Capital of Poland and focal point of the Vistula front
+PLC_KAUNAS;Kaunas;54.8985;23.9036;Strategic Lithuanian city on the route toward East Prussia
+
+PLC_IASI;Iași;47.1585;27.6014;Romania
+PLC_CHISINAU;Chișinău;47.0105;28.8638;Moldova
+PLC_BUCHAREST;Bucharest;44.4268;26.1025;Romania
+PLC_SOFIA;Sofia;42.6977;23.3219;Bulgaria
+PLC_BELGRADE;Belgrade;44.7866;20.4489;Serbia
+PLC_DEBRECEN;Debrecen;47.5316;21.6273;Hungary
+PLC_BUDAPEST;Budapest;47.4979;19.0402;Hungary
+PLC_GUMBINNEN;Gusev (Gumbinnen);54.5922;22.1997;East Prussia
+PLC_TATA;Tata;47.6529;18.3184;Hungary
+PLC_SANDOMIERZ;Sandomierz;50.6826;21.7489;Poland
+PLC_WARSAW;Warsaw;52.2297;21.0122;Poland
+PLC_KRAKOW;Kraków;50.0647;19.9450;Poland
+PLC_LODZ;Łódź;51.7592;19.4550;Poland
+PLC_KUSTRIN;Kostrzyn nad Odrą;52.5875;14.6495;Oder crossing
+PLC_KONIGSBERG;Kaliningrad;54.7104;20.4522;Former Königsberg
+PLC_ELBLAG;Elbląg;54.1522;19.4088;Former Elbing
+PLC_GDANSK;Gdańsk;54.3520;18.6466;Former Danzig
+PLC_VIENNA;Vienna;48.2082;16.3738;Austria
+PLC_SEELOW;Seelow Heights;52.5360;14.3810;Battlefield east of Berlin
+PLC_BERLIN;Berlin;52.5200;13.4050;Capital of Germany
+PLC_PARIS;Paris;48.8566;2.3522;Capital of France
+PLC_BRUSSELS;Brussels;50.8503;4.3517;Capital of Belgium
+PLC_ANTWERP;Antwerp;51.2194;4.4025;Major Belgian port
+PLC_DIJON;Dijon;47.3220;5.0415;Link-up point of Overlord and Dragoon forces
+PLC_EINDHOVEN;Eindhoven;51.4416;5.4697;Southern Dutch objective in Market Garden
+PLC_NIJMEGEN;Nijmegen;51.8420;5.8528;Key bridge crossing over the Waal
+PLC_ARNHEM;Arnhem;51.9851;5.8987;Northern objective of Market Garden
+PLC_AACHEN;Aachen;50.7753;6.0839;First major German city captured by the Allies
+PLC_HURTGEN;Hurtgen Forest;50.7000;6.3667;Site of prolonged fighting near the German border
+PLC_ROER;Roer River;51.0000;6.2500;German defensive line west of the Rhine
+PLC_ARDENNES;Ardennes;50.2500;5.7500;Region of the German winter offensive
+PLC_BASTOGNE;Bastogne;50.0000;5.7167;Key road junction during the Battle of the Bulge
+PLC_CLEVE;Cleve;51.7880;6.1386;Starting area for Operation Veritable
+PLC_REMAGEN;Remagen;50.5780;7.2270;Site of the Ludendorff Bridge
+PLC_WESEL;Wesel;51.6590;6.6170;Crossing point during Operation Plunder
+PLC_RHINE;Rhine River;51.5000;6.5000;Major river barrier in western Germany
+PLC_RUHR;Ruhr;51.4500;7.0000;Industrial heartland of Germany
+PLC_TORGAU;Torgau;51.5600;13.0030;Meeting point of American and Soviet forces
+PLC_BERLIN;Berlin;52.5200;13.4050;Capital of Germany
+PLC_CASERTA;Caserta;41.0730;14.3340;Location of German surrender in Italy
+PLC_LUNEBURG;Luneburg Heath;53.1400;10.2300;Site of German surrender to Montgomery
+PLC_REIMS;Reims;49.2583;4.0317;Location of the first German surrender signing
+PLC_NANCY;Nancy;48.6921;6.1844;Major city in Lorraine liberated by Patton's Third Army
+PLC_METZ;Metz;49.1193;6.1757;Fortified city in Lorraine captured after prolonged fighting
+PLC_SAARBRUCKEN;Saarbrucken;49.2402;6.9969;German industrial city near the French border
+
+placeId;name;latitude;longitude;notes
+PLC_TOURS;Tours;47.3941;0.6848;Battle of Tours
+PLC_QUERZY;Quierzy;49.5720;3.1350;Death of Charles Martel
+PLC_SOISSONS;Soissons;49.3817;3.3236;Pepin becomes king
+PLC_PARIS;Paris;48.8566;2.3522;Frankish and Viking events
+PLC_RAVENNA;Ravenna;44.4184;12.2035;Creation of the Papal States
+PLC_NOYON;Noyon;49.5833;3.0000;Charlemagne becomes king
+PLC_PADERBORN;Paderborn;51.7189;8.7575;Saxon Wars
+PLC_PAVIA;Pavia;45.1847;9.1582;Lombard Kingdom conquered
+PLC_RONCEVAUX;Roncevaux Pass;43.0090;-1.3190;Battle of Roncevaux Pass
+PLC_VERDEN;Verden;52.9230;9.2340;Massacre of Verden
+PLC_ROME;Rome;41.9028;12.4964;Imperial coronation
+PLC_SAXONY;Saxony;52.3000;10.5000;End of Saxon Wars
+PLC_AACHEN;Aachen;50.7753;6.0839;Capital of Charlemagne
+PLC_INGELHEIM;Ingelheim am Rhein;49.9747;8.0564;Death of Louis the Pious
+PLC_VERDUN;Verdun;49.1590;5.3820;Treaty of Verdun
+
+PLC_LINDISFARNE;Lindisfarne;55.6690;-1.7980;Raid on Lindisfarne
+PLC_HEDEBY;Hedeby;54.4870;9.5690;Major Viking trade centre
+PLC_BIRKA;Birka;59.3340;17.5450;Trading centre in Lake Mälaren
+PLC_NOVGOROD;Novgorod;58.5215;31.2755;Early Rus centre
+PLC_EAST_ANGLIA;East Anglia;52.3000;1.3000;Great Heathen Army landing area
+PLC_EDINGTON;Edington;51.2780;-2.1080;Battle of Edington
+PLC_YORK;York;53.9590;-1.0815;Centre of the Danelaw
+PLC_KIEV;Kiev;50.4501;30.5234;Capital of Kievan Rus
+PLC_NORMANDY;Rouen;49.4431;1.0993;Treaty of Saint-Clair-sur-Epte
+
+PLC_ADRIANOPLE;Adrianople (Edirne);41.6771;26.5557;Site of the Battle of Adrianople in 378
+PLC_CONSTANTINOPLE;Constantinople;41.0082;28.9784;Capital of the Eastern Roman Empire
+PLC_AQUILEIA;Aquileia;45.7686;13.3686;Major Roman city in northeastern Italy
+PLC_ROME;Rome;41.9028;12.4964;Capital of the Roman Empire and later the Papacy
+PLC_GIBRALTAR;Strait of Gibraltar;36.1408;-5.3536;Crossing point from Hispania to North Africa
+PLC_CARTHAGE;Carthage;36.8529;10.3230;Ancient city near modern Tunis
+PLC_CATALAUNIAN_PLAINS;Catalaunian Plains;48.9560;4.3670;Approximate location of the battle of 451 near Châlons
+PLC_RAVENNA;Ravenna;44.4184;12.2035;Capital of the Western Roman Empire in its final decades
+PLC_VOUILLE;Vouille;46.6400;0.2600;Site of Clovis' victory over the Visigoths in 507
+PLC_AD_DECIMUM;Ad Decimum;36.7600;10.2200;Battle site south of Carthage during the Vandalic War
+PLC_SICILY;Sicily;37.5999;14.0154;Initial theatre of Justinian's reconquest of Italy
+PLC_BUSTA_GALLORUM;Busta Gallorum;43.3500;12.7500;Approximate site of the Battle of Taginae in 552
+PLC_PAVIA;Pavia;45.1847;9.1582;Lombard capital in northern Italy
+PLC_YARMOUK;Yarmouk River;32.6540;35.8290;Site of decisive Byzantine-Arab battle in 636
+PLC_TERTRY;Tertry;49.8210;3.1830;Site of Pepin of Herstal's victory in 687
+PLC_GUADALETE;Guadalete;36.6850;-6.0330;Traditional location of the battle of 711
+PLC_AQUITAINE;Aquitaine;44.8400;0.5000;Region of southwestern Gaul
+PLC_TOULOUSE;Toulouse;43.6047;1.4442;Site of Odo's victory in 721
+PLC_PARIS;Paris;48.8566;2.3522;Major Frankish political centre
+PLC_METZ;Metz;49.1193;6.1757;Important Austrasian and Carolingian centre
+PLC_TOURS;Tours;47.3941;0.6848;Traditional location associated with the Battle of Tours
+PLC_MONTE_CASSINO;Monte Cassino;41.4900;13.8140;Benedictine monastery founded by Benedict of Nursia
+PLC_CANTERBURY;Canterbury;51.2802;1.0789;Seat of the first Roman archbishop in Anglo-Saxon England
+PLC_WHITBY;Whitby;54.4860;-0.6140;Site of the Synod of Whitby in 664
+PLC_NICAEA;Nicaea;40.4300;29.7200;Site of the First Council of Nicaea
+PLC_QUEDLINBURG;Quedlinburg;51.7880;11.1500;Royal centre of Henry the Fowler
+PLC_RIADE;Riade;51.5000;11.9000;Site of Henry the Fowler's victory over the Magyars
+PLC_AACHEN;Aachen;50.7766;6.0834;Traditional coronation city of German kings
+PLC_LECHFELD;Lechfeld;48.3000;10.9000;Battlefield near Augsburg
+PLC_BRANDENBURG;Brandenburg;52.4125;12.5316;Frontier region east of the Elbe
+PLC_JELLING;Jelling;55.7550;9.4170;Royal centre of Harald Bluetooth
+PLC_GNIEZNO;Gniezno;52.5346;17.5826;Early capital of Poland
+PLC_TRONDHEIM;Trondheim;63.4305;10.3951;Early Norwegian royal centre
+PLC_THINGVELLIR;Thingvellir;64.2558;-21.1295;Site of the Icelandic Althing
+PLC_PARIS;Paris;48.8566;2.3522;Capital of the Capetian kingdom
+PLC_LONDON;London;51.5074;-0.1278;Capital of England
+PLC_SHAFTESBURY;Shaftesbury;51.0050;-2.1960;Place associated with Cnut's death
+PLC_ROUEN;Rouen;49.4431;1.0993;Capital of Normandy
+PLC_STAMFORD_BRIDGE;Stamford Bridge;53.9900;-0.9150;Battle of Stamford Bridge
+PLC_HASTINGS;Hastings;50.8552;0.5729;Battle of Hastings
+PLC_CLUNY;Cluny;46.4340;4.6590;Major Benedictine monastery and administrative centre

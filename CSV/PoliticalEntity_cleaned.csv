@@ -1,0 +1,110 @@
+id;name;type;notes
+PE_ROMAN_REPUBLIC;Roman Republic;republic;Roman state before the Empire
+PE_CARTHAGE;Carthage;state;Phoenician maritime power
+PE_ATHENS;Athens;polis;Naval hegemon of the Delian League
+PE_SPARTA;Sparta;polis;Land-based hegemon of the Peloponnesian League
+PE_ACHAEMENID_PERSIAN_EMPIRE;Achaemenid Persian Empire;empire;Major Near Eastern empire
+PE_SYRACUSE;Syracuse;polis;Sicilian Greek power
+PE_CORINTH;Corinth;polis;Greek polis, often aligned with Sparta
+PE_KINGDOM_OF_ENGLAND;Kingdom of England;kingdom;English medieval monarchy
+PE_NORMANDY;Duchy of Normandy;duchy;Norman polity
+PE_NORWAY;Kingdom of Norway;kingdom;Scandinavian monarchy
+PE_DENMARK;Kingdom of Denmark;kingdom;Scandinavian monarchy
+PE_SWEDEN;Kingdom of Sweden;kingdom;Northern European power
+PE_RUSSIAN_EMPIRE;Russian Empire;empire;Imperial Russia
+PE_DENMARK_NORWAY;Denmark-Norway;composite_monarchy;Union monarchy
+PE_POLISH_LITHUANIAN_COMMONWEALTH;Polish-Lithuanian Commonwealth;commonwealth;Elective monarchy
+PE_OTTOMAN_EMPIRE;Ottoman Empire;empire;Anatolian-Balkan power
+PE_HABSBURG_MONARCHY;Habsburg Monarchy;empire;Central European imperial state
+PE_PRUSSIA;Kingdom of Prussia;kingdom;German military state
+PE_FRANCE;Kingdom of France;kingdom;Pre-revolutionary France
+PE_DUTCH_REPUBLIC;Dutch Republic;republic;Maritime republic
+PE_SPAIN;Kingdom of Spain;kingdom;Unified Spanish monarchy
+PE_PORTUGAL;Kingdom of Portugal;kingdom;Iberian monarchy
+PE_HOLY_ROMAN_EMPIRE;Holy Roman Empire;empire;Loose imperial structure
+PE_CROWN_OF_CASTILE;Crown of Castile;kingdom;Spanish predecessor kingdom
+PE_TAINO_POLITIES;Taino polities;polity;Indigenous Caribbean societies
+PE_CARIB_PEOPLES;Carib peoples;polity;Indigenous Lesser Antilles groups
+PE_DUTCH_WEST_INDIA_COMPANY;Dutch West India Company;trading_company;Colonial company
+PE_BRITISH_EAST_INDIA_COMPANY;British East India Company;company;British trading company
+PE_FRENCH_EAST_INDIA_COMPANY;French East India Company;company;French trading company
+PE_AFRICAN_ENSLAVED_POPULATIONS;African enslaved populations;collective;Forced labor populations
+PE_ROYALIST_ENGLAND;Royalist England;faction;Supporters of Charles I
+PE_PARLIAMENTARIAN_ENGLAND;Parliamentarian England;faction;Opposition to the king
+PE_NEW_MODEL_ARMY;New Model Army;army;Parliamentary army
+PE_SCOTTISH_COVENANTERS;Scottish Covenanters;faction;Scottish movement
+PE_CONFEDERATE_IRELAND;Confederate Ireland;polity;Catholic confederation
+PE_HOUSE_OF_STUART;House of Stuart;royal_house;Ruling dynasty
+PE_GERMAN_EMPIRE;German Empire;empire;1871–1918
+PE_AUSTRO_HUNGARIAN_EMPIRE;Austro-Hungarian Empire;empire;Dual monarchy
+PE_BULGARIA;Kingdom of Bulgaria;kingdom;Central Powers member
+PE_ROMANIA;Kingdom of Romania;kingdom;Entente member
+PE_SERBIA;Kingdom of Serbia;kingdom;Balkan state
+PE_MONTENEGRO;Kingdom of Montenegro;kingdom;Balkan monarchy
+PE_SOVIET_RUSSIA;Soviet Russia;state;Bolshevik regime
+PE_GERMANY;Germany (Nazi);state;1933–1945
+PE_UNITED_KINGDOM;United Kingdom;state;British state
+PE_ITALY_KINGDOM;Kingdom of Italy;state;WW2 monarchy
+PE_BELGIUM;Belgium;state;Kingdom
+PE_NETHERLANDS;Netherlands;state;Dutch state
+PE_UNITED_STATES;United States;state;Federal republic
+PE_JAPAN;Empire of Japan;empire;Imperial Japan
+PE_ALLIED_POWERS;Allied Powers;alliance;WW2 coalition
+PE_AXIS_POWERS;Axis Powers;alliance;WW2 coalition
+PE_CANADA;Canada;state;Allied power
+PE_POLAND;Poland;state;European state
+PE_FINLAND;Finland;state;Nordic state
+PE_CHINA;China;state;PRC
+PE_AUSTRALIA;Australia;state;UN participant
+PE_SOUTH_KOREA;South Korea;state;Republic of Korea
+PE_NORTH_KOREA;North Korea;state;DPRK
+PE_BAVARIA;Bavaria;electorate;German state
+PE_SAXONY;Saxony;electorate;German state
+PE_BRANDENBURG;Brandenburg;electorate;German state
+PE_SAVOY;Savoy;duchy;Italian state
+PE_VENICE;Republic of Venice;republic;Italian maritime state
+PE_PAPAL_STATES;Papal States;theocracy;Papal rule
+PE_OLD_SWISS_CONFEDERACY;Old Swiss Confederacy;confederacy;Swiss state
+PE_MILAN;Duchy of Milan;duchy;Italian state
+PE_NAPLES;Kingdom of Naples;kingdom;Italian state
+PE_FLORENCE;Republic of Florence;republic;Italian state
+PE_BRITISH_EMPIRE;British Empire;empire;Major Allied power
+PE_FRENCH_EMPIRE;French Empire;empire;Major Allied power
+PE_SARDINIA_PIEDMONT;Kingdom of Sardinia-Piedmont;kingdom;Joins Allies in 1855
+PE_BRITISH_INDIA;British India;country;Major source of manpower for British forces in Malaya, with Indian units forming a large portion of frontline troops under British command.
+PE_BRITISH_MALAYA;British Malaya;colony;Colonial territory serving as the operational theatre, whose geography and infrastructure shaped both the Japanese advance and the Allied defensive failure.
+PE_NAZI_GERMANY;Nazi Germany;country;Aggressor state attempting to gain air superiority over Britain.
+PE_BRITISH_COMMONWEALTH;British Commonwealth;alliance;Provided pilots and support personnel from countries such as Canada, Australia, and New Zealand.
+PE_ROYAL_AIR_FORCE;Royal Air Force;military;Air arm of the United Kingdom responsible for air defense under Fighter Command.
+PE_LUFTWAFFE;Luftwaffe;military;Air arm of Nazi Germany responsible for offensive air operations against Britain.
+PE_RAF_FIGHTER_COMMAND;RAF Fighter Command;military;Operational command responsible for air defense of Britain, led by Hugh Dowding.
+PE_CHINESE_COMMUNIST_FORCES;Chinese Communist Forces;organization;Communist military forces led by Mao Zedong
+PE_SOVIET_UNION;Soviet Union;state;Union of Soviet Socialist Republics
+PE_SOUTH_AFRICAN_REPUBLIC;South African Republic;state;Also known as Transvaal, Boer republic
+PE_ORANGE_FREE_STATE;Orange Free State;state;Independent Boer republic allied with Transvaal
+PE_QING_CHINA;Qing China;state;Nominal sovereign power over Manchuria but militarily weak and politically divided
+PE_KOREAN_EMPIRE;Korean Empire;state;Korean state caught between Russian and Japanese strategic ambitions
+PE_FRENCH_REPUBLIC;French Third Republic;state;French government with financial ties to the Russian Empire
+PE_UPPER_CANADA;Upper Canada;colony;British colony forming the main Canadian land theatre during the war
+PE_LOWER_CANADA;Lower Canada;colony;British colony supporting defense of Canada and control of the St. Lawrence corridor
+PE_NATIVE_CONFEDERACY;Native Confederacy;alliance;Indigenous alliance led primarily by Tecumseh resisting American expansion into the Northwest Territory
+PE_RED_STICK_CREEK;Red Stick Creek;tribe;Militant faction of the Creek Confederacy allied indirectly with British interests against the United States
+PE_ROYAL_NAVY;Royal Navy;military;British naval force conducting blockade operations and amphibious attacks
+PE_UNITED_STATES_NAVY;United States Navy;military;American naval force operating in the Atlantic and Great Lakes theatres
+PE_BRITISH_ARMY;British Army;military;British regular army forces deployed in Canada and the Chesapeake campaigns
+PE_UNITED_STATES_ARMY;United States Army;military;American land forces conducting invasions of Canada and frontier campaigns
+PE_CANADIAN_MILITIA;Canadian Militia;militia;Local colonial militia units supporting British defense operations in Canada
+PE_SHAWNEE;Shawnee;tribe;Indigenous nation associated with Tecumseh and resistance to American expansion
+PE_KALMAR_UNION;Kalmar Union;union;Personal union linking Denmark Norway and Sweden under a common monarch while preserving separate laws and institutions.
+PE_HANSEATIC_LEAGUE;Hanseatic League;trade_alliance;Commercial network of North German trading cities heavily involved in Baltic commerce.
+PE_CITY_OF_LBECK;City of Lübeck;city_state;Leading Hanseatic city with major influence over Baltic trade and Scandinavian politics.
+PE_SWEDISH_PRIVY_COUNCIL;Swedish Privy Council;council;Council of Swedish nobles and bishops that competed for influence over royal authority and union policy.
+PE_DANISH_CROWN;Danish Crown;dynasty;Royal administration and military structure supporting centralized union rule from Copenhagen.
+PE_STURE_FACTION;Sture Faction;faction;Swedish anti-union aristocratic network led by the Sture regents.
+PE_VASA_FACTION;Vasa Faction;faction;Political and military coalition supporting Gustav Vasa during the final break from the Kalmar Union.
+PE_BERGSLAGEN_COMMUNITIES;Bergslagen Communities;regional_group;Mining and iron-producing communities that formed the economic backbone of several Swedish uprisings.
+PE_DALARNA_PEASANTS;Dalarna Peasants;regional_group;Armed free peasants and bergsmän from Dalarna who repeatedly mobilized in Swedish political conflicts.
+PE_ARCHBISHOPRIC_OF_UPPSALA;Archbishopric of Uppsala;religious_institution;Major ecclesiastical power center involved in Swedish political struggles.
+PE_UNION_ROYAL_ARMY;Union Royal Army;military_force;Military forces loyal to the Kalmar Union monarchs during repeated conflicts in Sweden.
+PE_FREE_CITY_OF_LBECK;Free City of Lübeck;City State;Major Hanseatic trading city allied with Denmark against Sweden
+PE_POLAND_LITHUANIA;Kingdom of Poland-Lithuania;Kingdom;Regional Baltic power observing and influencing Scandinavian affairs

@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MilHist Historical Matrix</title>
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+#container {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.hint {
+  color: #1a73e8;
+  margin-bottom: 18px;
+}
+
+.matrix {
+  display: grid;
+  gap: 6px;
+}
+
+.header {
+  font-weight: bold;
+  text-align: center;
+  padding: 8px 4px;
+}
+
+.row-label {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 6px 4px;
+}
+
+.cell {
+  background: #eaeaea;
+  text-align: center;
+  padding: 10px;
+  min-height: 36px;
+  cursor: pointer;
+}
+
+.cell.empty {
+  cursor: default;
+  background: #efefef;
+}
+
+/* MODAL */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  z-index: 999;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+
+  z-index: 1000;
+
+  min-width: 700px;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.conflict-link {
+  padding: 8px;
+  margin: 6px 0;
+  background: #eaeaea;
+  cursor: pointer;
+}
+
+.conflict-link:hover {
+  background: #d0e3ff;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+  <h1>MilHist Historical Matrix</h1>
+
+  <div class="subtitle">
+    Global Conflict Overview
+  </div>
+
+  <div class="hint">
+    Click a cell to explore
+  </div>
+
+  <div id="matrix"></div>
+
+</div>
+
+<script>
+
+/* CSV */
+
+function parseCSV(text) {
+
+  const rows = text
+    .trim()
+    .split("\n")
+    .map(r => r.split(";"));
+
+  const headers = rows[0]
+    .map(h => h.trim().toLowerCase());
+
+  return rows.slice(1).map(r => {
+
+    const obj = {};
+
+    headers.forEach((h, i) => {
+      obj[h] = (r[i] || "").trim();
+    });
+
+    return obj;
+  });
+}
+
+async function loadCSV(path) {
+
+  const res = await fetch(path);
+  return parseCSV(await res.text());
+}
+
+/* DATA */
+
+const epochs = [
+  "Antiquity",
+  "Medieval",
+  "16th Century",
+  "17th Century",
+  "18th Century",
+  "19th Century",
+  "20th Century",
+  "Contemporary"
+];
+
+const mainTheatres = [
+  "Europe",
+  "Middle East",
+  "Asia",
+  "Africa",
+  "Americas",
+  "Global"
+];
+
+let conflicts = [];
+
+/* HELPERS */
+
+function epochName(y) {
+
+  y = parseInt(y);
+
+  if (y < 500) return "Antiquity";
+  if (y < 1500) return "Medieval";
+  if (y < 1600) return "16th Century";
+  if (y < 1700) return "17th Century";
+  if (y < 1800) return "18th Century";
+  if (y < 1900) return "19th Century";
+  if (y < 2000) return "20th Century";
+
+  return "Contemporary";
+}
+
+function mainTheatreOf(c) {
+
+  return mainTheatres.includes(c.maintheatre)
+    ? c.maintheatre
+    : "Global";
+}
+
+function makeDiv(cls, text) {
+
+  const d = document.createElement("div");
+
+  d.className = cls;
+  d.textContent = text;
+
+  return d;
+}
+
+/* MODAL */
+
+function openModal(contentEl) {
+
+  const backdrop = document.createElement("div");
+  backdrop.className = "modal-backdrop";
+
+  const modal = document.createElement("div");
+  modal.className = "modal";
+
+  const close = document.createElement("div");
+  close.className = "close-btn";
+  close.textContent = "✕";
+
+  function closeModal() {
+    backdrop.remove();
+    modal.remove();
+  }
+
+  close.onclick = closeModal;
+  backdrop.onclick = closeModal;
+
+  modal.onclick = e => e.stopPropagation();
+
+  modal.appendChild(close);
+  modal.appendChild(contentEl);
+
+  document.body.appendChild(backdrop);
+  document.body.appendChild(modal);
+}
+
+/* LEVEL 2 */
+
+function showLevel2(epoch, theatre) {
+
+  let filtered = conflicts.filter(c =>
+    epochName(c.startyear) === epoch &&
+    mainTheatreOf(c) === theatre
+  );
+
+  filtered.sort((a, b) =>
+    parseInt(a.startyear) - parseInt(b.startyear)
+  );
+
+  const wrapper = document.createElement("div");
+
+  const title = document.createElement("h3");
+  title.textContent = `${theatre} – ${epoch}`;
+
+  wrapper.appendChild(title);
+
+  /* SEARCH */
+
+  const search = document.createElement("input");
+
+  search.placeholder = "Search conflict...";
+  search.style.width = "100%";
+  search.style.marginBottom = "10px";
+
+  wrapper.appendChild(search);
+
+  /* FILTER */
+
+  const filter = document.createElement("select");
+
+  filter.style.marginBottom = "10px";
+
+  const allOption = document.createElement("option");
+
+  allOption.value = "ALL";
+  allOption.textContent = "All theatres";
+
+  filter.appendChild(allOption);
+
+  const subTheatres = [
+    ...new Set(
+      filtered
+        .map(c => c.theatretag)
+        .filter(Boolean)
+    )
+  ].sort();
+
+  subTheatres.forEach(t => {
+
+    const opt = document.createElement("option");
+
+    opt.value = t;
+    opt.textContent = t;
+
+    filter.appendChild(opt);
+  });
+
+  wrapper.appendChild(filter);
+
+  /* SORT */
+
+  const sort = document.createElement("select");
+
+  sort.style.marginLeft = "10px";
+
+  sort.innerHTML = `
+    <option value="year">Sort by Year</option>
+    <option value="name">Sort by Name</option>
+  `;
+
+  wrapper.appendChild(sort);
+
+  /* LIST */
+
+  const list = document.createElement("div");
+
+  wrapper.appendChild(list);
+
+  function renderList() {
+
+    let data = [...filtered];
+
+    const term = search.value.toLowerCase();
+
+    if (term) {
+
+      data = data.filter(c =>
+        (c.fullname || c.shortname || "")
+          .toLowerCase()
+          .includes(term)
+      );
+    }
+
+    if (filter.value !== "ALL") {
+
+      data = data.filter(c =>
+        (c.theatretag || "") === filter.value
+      );
+    }
+
+    if (sort.value === "year") {
+
+      data.sort((a, b) =>
+        parseInt(a.startyear) - parseInt(b.startyear)
+      );
+
+    } else {
+
+      data.sort((a, b) =>
+        (a.fullname || a.shortname || "")
+          .localeCompare(b.fullname || b.shortname || "")
+      );
+    }
+
+    list.innerHTML = "";
+
+    data.forEach(c => {
+
+      const row = document.createElement("div");
+
+      row.className = "conflict-link";
+
+      row.innerHTML = `
+        <strong>${c.fullname || c.shortname}</strong><br>
+        ${c.startyear}${c.endyear ? "–" + c.endyear : ""}
+      `;
+
+      row.onclick = () => {
+        window.location.href =
+          `map.html?conflict=${c.uuid}`;
+      };
+
+      list.appendChild(row);
+    });
+  }
+
+  search.addEventListener("input", renderList);
+  filter.addEventListener("change", renderList);
+  sort.addEventListener("change", renderList);
+
+  renderList();
+
+  openModal(wrapper);
+}
+
+/* LEVEL 1 */
+
+function renderLevel1() {
+
+  const matrix = document.getElementById("matrix");
+
+  matrix.innerHTML = "";
+
+  matrix.className = "matrix";
+
+  matrix.style.gridTemplateColumns =
+    `180px repeat(${epochs.length}, 1fr)`;
+
+  matrix.appendChild(
+    makeDiv("header", "Theatre")
+  );
+
+  epochs.forEach(e => {
+    matrix.appendChild(makeDiv("header", e));
+  });
+
+  mainTheatres.forEach(theatre => {
+
+    matrix.appendChild(
+      makeDiv("row-label", theatre)
+    );
+
+    epochs.forEach(epoch => {
+
+      const matches = conflicts.filter(c =>
+        epochName(c.startyear) === epoch &&
+        mainTheatreOf(c) === theatre
+      );
+
+      const cell = document.createElement("div");
+
+      cell.className =
+        matches.length
+          ? "cell"
+          : "cell empty";
+
+      if (matches.length) {
+
+        cell.innerHTML =
+          `<strong>${matches.length}</strong>`;
+
+        cell.onclick = () => {
+          showLevel2(epoch, theatre);
+        };
+      }
+
+      matrix.appendChild(cell);
+    });
+  });
+}
+
+/* INIT */
+
+async function init() {
+
+  conflicts = await loadCSV("csv/Conflict.csv");
+
+  renderLevel1();
+}
+
+init();
+
+</script>
+</body>
+</html>

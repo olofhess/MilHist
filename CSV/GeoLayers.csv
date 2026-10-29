@@ -1,0 +1,33 @@
+layerId;conflictId;type;date;phaseName;title;side;color;weight;style;coordinates;notes
+
+GL_BARB_001;WW2_EAST_BARBAROSSA;FRONT;1941-06-22;Opening Assault;Initial invasion front;Axis;red;4;solid;"57.8,21.8|57.2,23.0|56.5,24.2|55.7,25.5|54.8,26.3|53.9,27.4|53.0,28.2|52.0,29.0|51.0,29.8|50.0,30.6|49.0,31.2|48.0,31.8|47.0,32.2|46.0,32.5";Broad German invasion front from Baltic to Black Sea
+
+GL_BARB_002;WW2_EAST_BARBAROSSA;AXIS;1941-06-22;Opening Assault;Army Group North advance;Axis;darkred;3;solid;"54.7,20.5|55.2,21.8|56.0,24.0|57.0,25.8|58.0,27.5|59.0,29.0|59.9,30.3";Advance toward Leningrad
+
+GL_BARB_003;WW2_EAST_BARBAROSSA;AXIS;1941-06-22;Opening Assault;Army Group Center advance;Axis;darkred;4;solid;"52.2,21.0|52.8,23.0|53.5,25.5|53.9,27.5|54.2,29.5|54.8,32.0|55.2,34.5|55.8,37.6";Main thrust toward Moscow
+
+GL_BARB_004;WW2_EAST_BARBAROSSA;AXIS;1941-06-22;Opening Assault;Army Group South advance;Axis;darkred;3;solid;"50.4,23.5|50.5,25.0|50.3,27.0|50.0,30.5|49.2,32.0|48.5,34.0";Advance into Ukraine
+
+GL_BARB_005;WW2_EAST_BARBAROSSA;POCKET;1941-09-19;Encirclements;Kiev encirclement;Axis;orange;3;dashed;"51.2,28.5|50.8,31.5|49.8,34.0|48.5,33.5|47.8,30.5|48.8,28.0|50.0,27.5|51.2,28.5";Largest encirclement of the campaign
+
+GL_BARB_006;WW2_EAST_BARBAROSSA;FRONT;1941-12-15;Collapse;Winter stabilization line;Soviet;blue;4;solid;"59.5,31.0|58.8,32.5|58.0,34.0|57.0,35.0|56.0,36.0|55.0,37.0|54.0,38.0|53.0,39.0|52.0,39.5|51.0,39.8|50.0,39.2|49.0,38.5|48.0,37.5";German advance halted before Moscow
+
+
+
+GL_FR40_001;conflict_fr_1940;AXIS;1940-05-10;Invasion Begins;Northern diversion into Belgium and Netherlands;Axis;darkred;3;solid;"50.8,6.1|50.9,5.7|51.0,5.2|51.1,4.8|51.2,4.4";Draws Allied armies northward
+
+GL_FR40_002;conflict_fr_1940;AXIS;1940-05-10;Invasion Begins;Main Ardennes thrust;Axis;darkred;5;solid;"50.2,6.0|49.9,5.7|49.7,5.4|49.5,5.1|49.3,4.9|49.1,4.8";Panzer movement through Ardennes forest
+
+GL_FR40_003;conflict_fr_1940;AREA;1940-05-13;Sedan Breakthrough;Sedan breakthrough zone;Axis;orange;3;dashed;"49.9,4.6|49.8,4.9|49.5,5.0|49.3,4.8|49.4,4.5|49.7,4.4|49.9,4.6";Main German crossing area on the Meuse
+
+GL_FR40_004;conflict_fr_1940;AXIS;1940-05-15;Sedan Breakthrough;Panzer drive to the Channel;Axis;darkred;6;solid;"49.5,4.8|49.8,3.8|50.0,2.8|50.1,1.8";Rapid exploitation toward Abbeville
+
+GL_FR40_005;conflict_fr_1940;POCKET;1940-05-23;Dunkirk Encirclement;Allied northern pocket;Axis;orange;3;dashed;"51.3,2.0|51.4,3.2|50.9,3.8|50.2,3.3|50.1,2.2|50.6,1.6|51.3,2.0";Encirclement of Allied armies in northern France and Belgium
+
+GL_FR40_006;conflict_fr_1940;AXIS;1940-05-26;Dunkirk Encirclement;Operation Dynamo evacuation corridor;Allies;blue;3;solid;"51.0,2.4|51.2,1.8|51.4,1.2";Evacuation route across the Channel
+
+GL_FR40_007;conflict_fr_1940;FRONT;1940-06-05;Fall of France;Somme defensive line;Allies;blue;4;solid;"49.9,1.5|49.7,2.2|49.5,3.0|49.3,3.8|49.1,4.5";French defensive line before Case Red
+
+GL_FR40_008;conflict_fr_1940;AXIS;1940-06-09;Fall of France;Advance toward Paris;Axis;darkred;5;solid;"49.4,3.0|49.1,2.5|48.9,2.3|48.85,2.35";German advance on Paris
+
+GL_FR40_009;conflict_fr_1940;AXIS;1940-06-14;Fall of France;Advance toward Bordeaux;Axis;darkred;4;solid;"48.8,2.3|47.5,1.5|46.5,0.5|44.8,-0.6";Collapse of organized French resistance

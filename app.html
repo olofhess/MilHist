@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MilHist</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f5f5;
+    color:#222;
+}
+
+#container {
+    max-width:700px;
+    margin:60px auto;
+    padding:20px;
+}
+
+/* HEADER */
+
+h1 {
+    margin-bottom:10px;
+}
+
+.subtitle {
+    color:#555;
+    margin-bottom:30px;
+}
+
+/* SECTION */
+
+.section-title {
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+/* LINKS */
+
+.links {
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+}
+
+.links a {
+    display:block;
+    padding:14px;
+    background:white;
+    border-radius:10px;
+    text-decoration:none;
+    color:#222;
+    font-weight:bold;
+    box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    transition:0.15s;
+}
+
+.links a:hover {
+    transform:translateY(-2px);
+    box-shadow:0 6px 14px rgba(0,0,0,0.2);
+}
+
+/* BACK */
+
+.back {
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.back a {
+    text-decoration:none;
+    color:#1a73e8;
+}
+
+.back a:hover {
+    text-decoration:underline;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+    <div class="back">
+        <a href="index.html">← Back to start</a>
+    </div>
+
+    <h1>MilHist</h1>
+
+    <div class="subtitle">
+        Select how you want to explore the data
+    </div>
+
+    <div class="section-title">Explore</div>
+
+    <div class="links">
+        <a href="map.html">🗺 Open map</a>
+        <a href="search_matrix.html">🔎 Search database</a>
+    </div>
+
+</div>
+
+</body>
+</html>

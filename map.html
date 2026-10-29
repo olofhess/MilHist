@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MilHist – Conflicts</title>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+<style>
+body { margin:0; font-family: Arial; }
+
+#container {
+    display:flex;
+    height:100vh;
+}
+
+#sidebar {
+    width:420px;
+    overflow-y:auto;
+    border-right:1px solid #ccc;
+    padding:12px;
+}
+
+#sidebar h2 {
+    margin-top:0;
+}
+#mapLegend {
+    position: absolute;
+    bottom: 20px;
+    left: 440px;
+    background: white;
+    padding: 10px 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    font-size: 13px;
+    z-index: 1000;
+}
+
+#mapLegend div {
+    margin: 4px 0;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.red { background: red; }
+.orange { background: orange; }
+.purple { background: purple; }
+.blue { background: blue; }
+.green { background: green; }
+.black { background: black; }
+
+#map {
+    flex:1;
+    min-width:300px;
+}
+
+.conflict {
+    font-weight:bold;
+    cursor:pointer;
+    margin-top:10px;
+}
+
+.phase {
+    margin-left:10px;
+    font-weight:bold;
+    margin-top:6px;
+}
+
+.event {
+    margin-left:20px;
+    cursor:pointer;
+    padding:6px 8px;
+    border-radius:6px;
+}
+
+.event:hover {
+    background:#eee;
+}
+
+/* EVENT POPUP */
+
+#eventDetail {
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    width:320px;
+    background:white;
+    padding:12px;
+    border-radius:10px;
+    box-shadow:0 6px 20px rgba(0,0,0,0.25);
+    display:none;
+    z-index:1000;
+}
+
+.close-btn {
+    background:none;
+    border:none;
+    font-size:18px;
+    cursor:pointer;
+    padding:4px 8px;
+    border-radius:6px;
+}
+
+.close-btn:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+/* HISTORICAL CONTEXT PANEL */
+
+#contextPanel {
+    position: fixed;
+    top: 0;
+    right: -420px;
+    width: 380px;
+    height: 100vh;
+    background: white;
+    box-shadow: -6px 0 20px rgba(0,0,0,0.25);
+    z-index: 1100;
+    transition: right 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+#contextPanel.open {
+    right: 0;
+}
+
+#contextHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+#contextContent {
+    padding: 12px;
+    overflow-y: auto;
+    flex: 1;
+}
+
+/* =========================
+   BUTTON SYSTEM
+========================= */
+
+.btn {
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+}
+
+/* Navigation */
+.btn-nav {
+    background: transparent;
+    border: none;
+    color: #333;
+}
+
+.btn-nav:hover {
+    background: rgba(0,0,0,0.05);
+}
+
+/* Action */
+.btn-action {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+}
+
+.btn-action:hover {
+    background: #eaeaea;
+}
+
+/* Primary */
+.btn-primary {
+    background: black;
+    color: white;
+    border: none;
+}
+
+.btn-primary:hover {
+    background: #222;
+}
+
+/* Sidebar navigation container */
+.sidebar-nav {
+    display:flex;
+    gap:8px;
+    margin-bottom:12px;
+}
+
+/* External reference icon */
+.ref-link {
+    margin-left:8px;
+    cursor:pointer;
+    opacity:0.6;
+}
+
+.ref-link:hover {
+    opacity:1;
+}
+
+/* =========================
+   WIKI MODAL
+========================= */
+
+#wikiModal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 5000;
+
+    background: rgba(0,0,0,0.55);
+
+    justify-content: center;
+    align-items: center;
+}
+
+#wikiContent {
+    width: 92%;
+    height: 92%;
+
+    background: white;
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+}
+
+#wikiHeader {
+    height: 50px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    padding: 0 12px;
+
+    border-bottom: 1px solid #ddd;
+}
+
+#wikiFrame {
+    flex: 1;
+    width: 100%;
+    border: none;
+}
+.phase-label {
+    background: transparent;
+    border: none;
+}
+
+.phase-label-box {
+    background: rgba(255,255,255,0.85);
+
+    padding: 6px 8px;
+
+    border-radius: 6px;
+
+    border: 1px solid #666;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    line-height: 1.2;
+
+    white-space: nowrap;
+
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.25);
+}
+
+.phase-date {
+    color: #444;
+    font-size: 11px;
+}
+
+.phase-name {
+    color: #000;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+    <div id="sidebar">
+        <p>Loading conflicts...</p>
+    </div>
+
+    <div id="map"></div>
+
+    <div id="mapLegend">
+    <div><span class="dot red"></span> Battle</div>
+    <div><span class="dot orange"></span> Siege</div>
+    <div><span class="dot purple"></span> Campaign</div>
+    <div><span class="dot blue"></span> Naval</div>
+    <div><span class="dot green"></span> Political</div>
+    <div><span class="dot black"></span> Diplomacy</div>
+</div>
+
+</div>
+
+<!-- EVENT POPUP -->
+<div id="eventDetail">
+    <div style="display:flex; justify-content:flex-end;">
+        <button onclick="closeEventDetail()" class="close-btn">✕</button>
+    </div>
+    <div id="eventDetailContent"></div>
+</div>
+
+<!-- HISTORICAL CONTEXT PANEL -->
+<div id="contextPanel">
+    <div id="contextHeader">
+        <span>Historical Context</span>
+        <button onclick="closeContextPanel()" class="close-btn">✕</button>
+    </div>
+
+    <div id="contextContent"></div>
+</div>
+
+<!-- WIKI MODAL -->
+
+<div id="wikiModal">
+
+    <div id="wikiContent">
+
+        <div id="wikiHeader">
+            <button onclick="closeWikiModal()" class="close-btn">✕</button>
+        </div>
+
+        <iframe id="wikiFrame"></iframe>
+
+    </div>
+
+</div>
+
+<script>
+
+function openWikiModal(url) {
+
+    const modal = document.getElementById("wikiModal");
+    const frame = document.getElementById("wikiFrame");
+
+    frame.src = url;
+
+    modal.style.display = "flex";
+}
+
+function closeWikiModal() {
+
+    document.getElementById("wikiModal").style.display = "none";
+
+    document.getElementById("wikiFrame").src = "";
+}
+
+</script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MilHist</title>
+
+<style>
+
+body {
+    margin:0;
+    padding:20px;
+    font-family: Arial, sans-serif;
+    background:#f5f6f8;
+    position:relative;
+    z-index:1;
+}
+
+/* FRAME */
+
+.wrapper {
+    max-width:1100px;
+    margin:20px auto;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    border:3px solid red;   /* ← TEST: ska synas direkt */
+    overflow:hidden;
+    position:relative;
+    z-index:10;             /* ← viktigt */
+}
+
+/* HEADER */
+
+.header {
+    text-align:center;
+    padding:60px 20px 30px;
+}
+
+h1 {
+    font-size:48px;
+    margin:0;
+}
+
+.subtitle {
+    margin-top:10px;
+    font-size:18px;
+    color:#555;
+}
+
+/* FEATURES */
+
+.features {
+    max-width:600px;
+    margin:30px auto;
+    font-size:16px;
+}
+
+.feature {
+    margin:10px 0;
+}
+
+/* FEATURED */
+
+.section {
+    max-width:900px;
+    margin:40px auto;
+    padding:0 20px;
+}
+
+.section h2 {
+    margin-bottom:15px;
+}
+
+.cards {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap:15px;
+}
+
+.card {
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.card:hover {
+    transform:translateY(-3px);
+}
+
+.card-title {
+    font-weight:bold;
+    margin-bottom:6px;
+}
+
+.card-desc {
+    font-size:14px;
+    color:#666;
+}
+
+/* CTA */
+
+.cta {
+    text-align:center;
+    margin:50px 0;
+}
+
+button {
+    padding:12px 26px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    background:#1a73e8;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover {
+    background:#155ab6;
+}
+
+/* FOOTER */
+
+.footer {
+    margin-top:60px;
+    padding:30px 20px;
+    background:#f0f1f3;
+    border-top:1px solid #ddd;
+}
+
+.footer-content {
+    max-width:800px;
+    margin:0 auto;
+    text-align:center;
+    color:#666;
+}
+
+.footer-line {
+    margin:6px 0;
+}
+
+.footer-line.small {
+    font-size:13px;
+    color:#888;
+}
+
+.footer a {
+    color:#1a73e8;
+    text-decoration:none;
+}
+
+.footer a:hover {
+    text-decoration:underline;
+}
+
+/* COPYRIGHT */
+
+.copyright {
+    position:absolute;
+    bottom:10px;
+    right:15px;
+    font-size:12px;
+    color:#888;
+}
+
+</style>
+</head>
+
+<body>
+<body>
+
+<div style="position:fixed; top:0; left:0; right:0; bottom:0; border:10px solid red; z-index:9999;"></div>
+
+<div class="wrapper">
+<div class="wrapper">
+
+<!-- HERO -->
+
+<div class="header">
+    <h1>MilHist</h1>
+    <div class="subtitle">
+        Explore historical conflicts through interactive maps and timelines
+    </div>
+</div>
+
+<!-- FEATURES -->
+
+<div class="features">
+    <div class="feature">📍 Browse conflicts on a map</div>
+    <div class="feature">👤 Explore people and participation</div>
+    <div class="feature">⏱ Follow events over time</div>
+</div>
+
+<!-- FEATURED CONFLICTS -->
+
+
+
+<div class="section">
+    <h2>About MilHist</h2>
+
+    <div style="max-width:700px; line-height:1.6; color:#444;">
+
+        <p>
+        MilHist is built as a structured historical database rather than a traditional website.
+        Conflicts, events, people and places are connected in a relational model,
+        allowing you to explore history as a network rather than a timeline.
+        </p>
+
+        <p>
+        The application supports advanced filtering and navigation, making it possible
+        to move between events, participants and locations seamlessly.
+        All data is based on open sources and has been curated and structured
+        for clarity and consistency.
+        </p>
+
+        <p>
+        Artificial intelligence has been used as a development tool throughout the project —
+        assisting with data structuring, validation and interface design —
+        while all content is reviewed and controlled before publication.
+        </p>
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+
+            <div class="footer-line">
+                MilHist — a structured historical knowledge system
+            </div>
+
+            <div class="footer-line small">
+                Developed by Olof Hesselmark · Built with AI-assisted workflows
+            </div>
+
+            <div class="footer-line small">
+                Data sources: Wikipedia, Britannica and other open sources
+            </div>
+
+            <div class="footer-line small">
+                <a href="mailto:your@email.com">Contact</a>
+            </div>
+
+            <div style="margin-top:20px; font-size:14px; color:#666;">
+                Some historical sources, such as the Galerie des Batailles in Versailles,
+                present curated national narratives. MilHist complements this with a structured,
+                data-driven approach to historical events.
+
+                For visual context, see large-scale historical battle paintings from 
+                <a href="https://en.wikipedia.org/wiki/Galerie_des_Batailles" target="_blank">
+                    Galerie des Batailles
+                </a>.
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- CTA -->
+
+<div class="cta">
+    <button onclick="startApp()">Explore all conflicts</button>
+</div>
+
+<!-- COPYRIGHT -->
+
+<div class="copyright">
+    Copyright 2026 Olof Hesselmark
+</div>
+
+</div>
+
+<script>
+
+function startApp() {
+    window.location.href = "search_matrix.html";
+}
+
+function openConflict(id) {
+    window.location.href = `map.html?conflict=${id}`;
+}
+
+</script>
+
+</body>
+</html>

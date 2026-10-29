@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>MilHist</title>
+
+<style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    background:#f5f6f8;
+}
+
+/* CENTER */
+
+#wrapper {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:50vh;
+    text-align:center;
+
+    max-width:600px;
+    margin:100px auto;
+    background:white;
+    border:2px solid #ccc;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+    padding:40px;
+}
+
+/* HEADER */
+
+h1 {
+    font-size:48px;
+    margin:0;
+}
+
+.subtitle {
+    margin-top:10px;
+    font-size:18px;
+    color:#555;
+}
+
+/* FEATURES */
+
+.features {
+    max-width:420px;
+    margin:30px auto;
+    font-size:18px;
+    line-height:1.8;
+    text-align:left;
+}
+
+/* BUTTON */
+
+button {
+    padding:14px 32px;
+    font-size:16px;
+    border:none;
+    border-radius:8px;
+    background:#1a73e8;
+    color:white;
+    cursor:pointer;
+}
+
+button:hover {
+    background:#155ab6;
+}
+
+/* SECONDARY LINK */
+
+.secondary {
+    margin-top:15px;
+    font-size:14px;
+}
+
+.secondary a {
+    color:#1a73e8;
+    text-decoration:none;
+}
+
+.secondary a:hover {
+    text-decoration:underline;
+}
+.phase-label {
+    background: transparent;
+    border: none;
+}
+
+
+</style>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+    <h1>MilHist</h1>
+
+    <div class="subtitle">
+        Explore historical conflicts through interactive maps and timelines
+    </div>
+
+    <div class="features">
+        📍 Browse conflicts on a map<br>
+        👤 Explore people and participation<br>
+        ⏱ Follow events over time
+    </div>
+
+    <button onclick="startApp()">Explore conflicts</button>
+
+    <div class="secondary">
+        <a href="map.html">Skip → open map</a>
+    </div>
+
+</div>
+
+<script>
+function startApp() {
+    window.location.href = "app.html";
+}
+</script>
+
+</body>
+</html>
